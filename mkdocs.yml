@@ -1,9 +1,9 @@
 site_name: 'MiyooCFW docs'
-site_url: http://htmlpreview.github.io/?https://github.com/MiyooCFW/docs/blob/master/index.html
+#site_url: http://htmlpreview.github.io/?https://github.com/MiyooCFW/docs/blob/master/site/index.html
 repo_url: http://github.com/TriForceX/MiyooCFW/wiki
 site_description: MiyooCFW development docummentation
 site_author: TriForceX
-site_dir: .
+site_dir: site
 docs_dir: 'MiyooCFW.wiki'
 theme: 'readthedocs'
 nav:
