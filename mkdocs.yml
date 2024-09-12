@@ -7,38 +7,42 @@ site_dir: .
 docs_dir: 'MiyooCFW.wiki'
 theme: 'readthedocs'
 nav:
-## Miyoo CFW 2.0.0
-- Home: 'Home.md'
-- Console Hotkeys: 'Console-Hotkeys.md'
-- Build Image and SDK: 'Build-Image-and-SDK.md'
-- Build Kernel: 'Build-Kernel.md'
-- Build uBoot: 'Build-uBoot.md'
-- Get the prebuilt SDK from GH actions: 'Get-the-prebuilt-SDK-from-GH-actions.md'
-- Making Games: 'Making-Games.md'
-- Using Docker to Compile Games: 'Using-Docker-to-Compile-Games.md'
-- Remote debugging: 'Remote-debugging.md'
-- Bug Reporting: 'https://github.com/TriForceX/MiyooCFW/issues'
-- Discussions Topics: 'https://github.com/TriForceX/MiyooCFW/discussions'
+- 'Miyoo CFW 2.0.0':
+  - Home: 'Home.md'
+  - Console Hotkeys: 'Console-Hotkeys.md'
+  - Build Image and SDK: 'Build-Image-and-SDK.md'
+  - Build Kernel: 'Build-Kernel.md'
+  - Build uBoot: 'Build-uBoot.md'
+  - Get the prebuilt SDK from GH actions: 'Get-the-prebuilt-SDK-from-GH-actions.md'
+  - Making Games: 'Making-Games.md'
+  - Using Docker to Compile Games: 'Using-Docker-to-Compile-Games.md'
+  - Remote debugging: 'Remote-debugging.md'
+  - Bug Reporting: 'https://github.com/TriForceX/MiyooCFW/issues'
+  - Discussions Topics: 'https://github.com/TriForceX/MiyooCFW/discussions'
 
-## Miyoo CFW 1.3.3
-- Overview: 'Overview.md'
-- Making-Games-DEPRECATED: 'Making-Games-DEPRECATED.md'
-- Build Source-DEPRECATED: 'Build-Source-DEPRECATED.md'
-- Custom Firmware Setup: 'Custom-Firmware-Setup.md'
+- 'Miyoo CFW 1.3.3':
+  - Overview: 'Overview.md'
+  - Making-Games-DEPRECATED: 'Making-Games-DEPRECATED.md'
+  - Build Source-DEPRECATED: 'Build-Source-DEPRECATED.md'
+  - Custom Firmware Setup: 'Custom-Firmware-Setup.md'
 
-## Applications
-- Emulator Info: 'Emulator-Info.md'
-- Homebrew Info: 'Homebrew-Info.md'
-- DosBox Setup: 'DosBox-Setup.md'
-- RetroArch Setup: 'RetroArch-Setup.md'
-- GameBoy
+- 'Applications':
+  - Emulator Info: 'Emulator-Info.md'
+  - Homebrew Info: 'Homebrew-Info.md'
+  - DosBox Setup: 'DosBox-Setup.md'
+  - RetroArch Setup: 'RetroArch-Setup.md'
+
+- 'GameBoy':
   - GamBatte: 'GamBatte.md'
   - OhBoy: 'OhBoy.md'
-- Gameboy Advance
+
+- 'Gameboy Advance':
   - gpSP: 'GPSP.md'
-- Arcade
+
+- 'Arcade':
   - MAME4All: 'MAME4All.md'
   - GnGeo: 'GnGeo.md'
   - FBA-A320: 'FBA-A320.md'
-- PlayStation
+
+- 'PlayStation':
   - PCSX-ReARMed: 'PCSX-ReARMed.md'
