@@ -16,5 +16,5 @@ python3 mkdocs build
 ```
 ### Publish with
 ```
-python3 mkdocs gh-deploy
+python3 mkdocs gh-deploy --config-file mkdocs.yml --remote-branch site --no-history
 ```
