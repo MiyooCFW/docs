@@ -1,16 +1,20 @@
 # MiyooCFW documentation pages (WIP)
 
-- You can preview full docs, by running
+### You can preview full docs, by running
 
-*) locally:
+- locally:
 ```
 git submodule update --init --recursive
-python mkdocs serve
+python3 mkdocs serve
 ```
-*) in Web-browser from htmlpreview:
- [here](http://htmlpreview.github.io/?https://github.com/MiyooCFW/docs/blob/site/index.html)
+- in Web-browser from htmlpreview:
+ [here](https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/index.html)
 
-- Build with
+### Build with
 ```
-python mkdocs build
+python3 mkdocs build
+```
+### Publish with
+```
+python3 mkdocs gh-deploy
 ```
