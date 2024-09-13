@@ -1,0 +1,73 @@
+site_name: 'MiyooCFW docs'
+#site_url: http://MiyooCFW.github.io
+#repo_url: https://github.com/MiyooCFW/docs
+#edit_uri: blob/site/
+site_description: MiyooCFW development documentation
+site_author: TriForceX
+site_dir: site-preview
+docs_dir: 'MiyooCFW.wiki'
+theme: 'readthedocs'
+nav:
+- 'CFW 2.0.0':
+  - Home: 'https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Home/index.html'
+  - Console Hotkeys: 'https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Console-Hotkeys/index.html'
+  - Build Image and SDK: 'https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Build-Image-and-SDK/index.html'
+  - Build Kernel: 'https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Build-Kernel/index.html'
+  - Build uBoot: 'https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Build-uBoot/index.html'
+  - Get the prebuilt SDK from GH actions: 'https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Get-the-prebuilt-SDK-from-GH-actions/index.html'
+  - Making Games: 'https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Making-Games/index.html'
+  - Using Docker to Compile Games: 'https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Using-Docker-to-Compile-Games/index.html'
+  - Remote debugging: 'https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Remote-debugging/index.html'
+  - Bug Reporting: 'https://github.com/TriForceX/MiyooCFW/issues'
+  - Discussions Topics: 'https://github.com/TriForceX/MiyooCFW/discussions'
+
+- 'CFW 1.3.3':
+  - Overview: 'https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Overview/index.html'
+  - Making-Games-DEPRECATED: 'https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Making-Games-DEPRECATED/index.html'
+  - Build Source-DEPRECATED: 'https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Build-Source-DEPRECATED/index.html'
+  - Custom Firmware Setup: 'https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Custom-Firmware-Setup/index.html'
+
+- 'Applications':
+  - Emulator Info: 'https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Emulator-Info/index.html'
+  - Homebrew Info: 'https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Homebrew-Info/index.html'
+  - DosBox Setup: 'https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/DosBox-Setup/index.html'
+  - RetroArch Setup: 'https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/RetroArch-Setup/index.html'
+  - 'GameBoy':
+    - GamBatte: 'https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/GamBatte/index.html'
+    - OhBoy: 'https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/OhBoy/index.html'
+  - 'Gameboy Advance':
+    - gpSP: 'https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/GPSP/index.html'
+  - 'Arcade':
+    - MAME4All: 'https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/MAME4All/index.html'
+    - GnGeo: 'https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/GnGeo/index.html'
+    - FBA-A320: 'https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/FBA-A320/index.html'
+  - 'PlayStation':
+    - PCSX-ReARMed: 'https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/PCSX-ReARMed/index.html'
+
+- 'Themes':
+  - 'GMenu2X':
+    - Fontixel: 'https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Fontixel/index.html'
+    - NewComicBook: 'https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/NewComicBook/index.html'
+    - Retro Pixel BR: 'https://github.com/mrwasterbr/retropixelbr'
+  - 'SimpleMenu':
+    - SimUI: 'https://github.com/dkodr/SimUI'
+
+- 'Frontends':
+  - CoverFlow: 'https://github.com/peterthrees/Coverflow'
+  - SimpleMenu: 'https://github.com/fgl82/simplemenu'
+  - GMenu2X: 'https://github.com/MiyooCFW/gmenu2x'
+
+- 'Projects':
+  - Tiny LLM: 'https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Tiny-LLM/index.html'
+
+- 'Modding':
+  - 'ALL':
+    - Improve Directional Pad: 'https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Improve-Directional-Pad/index.html'
+  - 'V90':
+    - USB-C Fix: 'https://www.nfriedly.com/techblog/2021-10-10-v90-usb-c'
+  - 'PocketGo':
+    - Sound Noise Fix: 'https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Sound-Noise-Fix/index.html'
+    - Light Bleed Fix: 'https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Light-Bleed-Fix/index.html'
+  - 'BittBoy':
+    - Ghost Key Fix: 'https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Ghost-Key-Fix/index.html'
+    - Shoulder Buttons: 'https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Shoulder-Buttons/index.html'
