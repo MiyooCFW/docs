@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="TriForceX" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Bug Reporting - MiyooCFW docs</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Bug Reporting";
+        var mkdocs_page_input_path = "Bug-Reporting.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> MiyooCFW docs
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">CFW 2.0.0</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="" href="https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Home/index.html">Home</a>
+                  </li>
+                  <li class="toctree-l1"><a class="" href="https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Console-Hotkeys/index.html">Console Hotkeys</a>
+                  </li>
+                  <li class="toctree-l1"><a class="" href="https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Build-Image-and-SDK/index.html">Build Image and SDK</a>
+                  </li>
+                  <li class="toctree-l1"><a class="" href="https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Build-Kernel/index.html">Build Kernel</a>
+                  </li>
+                  <li class="toctree-l1"><a class="" href="https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Build-uBoot/index.html">Build uBoot</a>
+                  </li>
+                  <li class="toctree-l1"><a class="" href="https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Get-the-prebuilt-SDK-from-GH-actions/index.html">Get the prebuilt SDK from GH actions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="" href="https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Making-Games/index.html">Making Games</a>
+                  </li>
+                  <li class="toctree-l1"><a class="" href="https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Using-Docker-to-Compile-Games/index.html">Using Docker to Compile Games</a>
+                  </li>
+                  <li class="toctree-l1"><a class="" href="https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Remote-debugging/index.html">Remote debugging</a>
+                  </li>
+                  <li class="toctree-l1"><a class="" href="https://github.com/TriForceX/MiyooCFW/issues">Bug Reporting</a>
+                  </li>
+                  <li class="toctree-l1"><a class="" href="https://github.com/TriForceX/MiyooCFW/discussions">Discussions Topics</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">CFW 1.3.3</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="" href="https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Overview/index.html">Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="" href="https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Making-Games-DEPRECATED/index.html">Making-Games-DEPRECATED</a>
+                  </li>
+                  <li class="toctree-l1"><a class="" href="https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Build-Source-DEPRECATED/index.html">Build Source-DEPRECATED</a>
+                  </li>
+                  <li class="toctree-l1"><a class="" href="https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Custom-Firmware-Setup/index.html">Custom Firmware Setup</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Applications</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="" href="https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Emulator-Info/index.html">Emulator Info</a>
+                  </li>
+                  <li class="toctree-l1"><a class="" href="https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Homebrew-Info/index.html">Homebrew Info</a>
+                  </li>
+                  <li class="toctree-l1"><a class="" href="https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/DosBox-Setup/index.html">DosBox Setup</a>
+                  </li>
+                  <li class="toctree-l1"><a class="" href="https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/RetroArch-Setup/index.html">RetroArch Setup</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >GameBoy</a>
+    <ul>
+                <li class="toctree-l2"><a class="" href="https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/GamBatte/index.html">GamBatte</a>
+                </li>
+                <li class="toctree-l2"><a class="" href="https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/OhBoy/index.html">OhBoy</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Gameboy Advance</a>
+    <ul>
+                <li class="toctree-l2"><a class="" href="https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/GPSP/index.html">gpSP</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Arcade</a>
+    <ul>
+                <li class="toctree-l2"><a class="" href="https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/MAME4All/index.html">MAME4All</a>
+                </li>
+                <li class="toctree-l2"><a class="" href="https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/GnGeo/index.html">GnGeo</a>
+                </li>
+                <li class="toctree-l2"><a class="" href="https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/FBA-A320/index.html">FBA-A320</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >PlayStation</a>
+    <ul>
+                <li class="toctree-l2"><a class="" href="https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/PCSX-ReARMed/index.html">PCSX-ReARMed</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Themes</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" >GMenu2X</a>
+    <ul>
+                <li class="toctree-l2"><a class="" href="https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Fontixel/index.html">Fontixel</a>
+                </li>
+                <li class="toctree-l2"><a class="" href="https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/NewComicBook/index.html">NewComicBook</a>
+                </li>
+                <li class="toctree-l2"><a class="" href="https://github.com/mrwasterbr/retropixelbr">Retro Pixel BR</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >SimpleMenu</a>
+    <ul>
+                <li class="toctree-l2"><a class="" href="https://github.com/dkodr/SimUI">SimUI</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Frontends</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="" href="https://github.com/peterthrees/Coverflow">CoverFlow</a>
+                  </li>
+                  <li class="toctree-l1"><a class="" href="https://github.com/fgl82/simplemenu">SimpleMenu</a>
+                  </li>
+                  <li class="toctree-l1"><a class="" href="https://github.com/MiyooCFW/gmenu2x">GMenu2X</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Projects</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="" href="https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Tiny-LLM/index.html">Tiny LLM</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Modding</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" >ALL</a>
+    <ul>
+                <li class="toctree-l2"><a class="" href="https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Improve-Directional-Pad/index.html">Improve Directional Pad</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >V90</a>
+    <ul>
+                <li class="toctree-l2"><a class="" href="https://www.nfriedly.com/techblog/2021-10-10-v90-usb-c">USB-C Fix</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >PocketGo</a>
+    <ul>
+                <li class="toctree-l2"><a class="" href="https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Sound-Noise-Fix/index.html">Sound Noise Fix</a>
+                </li>
+                <li class="toctree-l2"><a class="" href="https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Light-Bleed-Fix/index.html">Light Bleed Fix</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >BittBoy</a>
+    <ul>
+                <li class="toctree-l2"><a class="" href="https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Ghost-Key-Fix/index.html">Ghost Key Fix</a>
+                </li>
+                <li class="toctree-l2"><a class="" href="https://html-preview.github.io/?url=https://github.com/MiyooCFW/docs/blob/site-preview/Shoulder-Buttons/index.html">Shoulder Buttons</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">MiyooCFW docs</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Bug Reporting</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <p>This list aims to let the users and developers a complete list of bugs and issues on the console, Stock FW and CFW. If you know a bug in a game please report on our <strong>Discord</strong> server, we will try to keep this updated. If you want to report something make your request <a href="https://github.com/TriForceX/NewBittboyCFW/issues">here</a>.</p>
+<h1 id="emulators">Emulators</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Emulator</th>
+<th align="left">Issue</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">SMS</td>
+<td align="left">SMS emulator button mixup when fire a missile in after burner. The volume changes</td>
+</tr>
+<tr>
+<td align="center">SMS</td>
+<td align="left">Take about 5 seconds back to 60fps</td>
+</tr>
+<tr>
+<td align="center">GPSP</td>
+<td align="left">GPSP savestates may break if turn off the console without exit the emulator before</td>
+</tr>
+<tr>
+<td align="center">SDLPal</td>
+<td align="left">Need to double click DOWN key when start the game</td>
+</tr>
+</tbody>
+</table>
+<h1 id="homebrews-ports">Homebrews &amp; Ports</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Game</th>
+<th align="left">Issue</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Quake v1.09</td>
+<td align="left">Fall into the lava in front of the portal to hard (in lobby)</td>
+</tr>
+<tr>
+<td align="center">Quake v1.09</td>
+<td align="left">Jump the water to the fourth episode(in lobby)</td>
+</tr>
+<tr>
+<td align="center">ASCII Portal</td>
+<td align="left">Not Loading</td>
+</tr>
+<tr>
+<td align="center">Streets of Rage Remake</td>
+<td align="left">Crashes after the Bomberman games logo</td>
+</tr>
+</tbody>
+</table>
+<h1 id="console">Console</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Revision</th>
+<th align="left">Issue</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">All</td>
+<td align="left">Screen tearing problem (Fast movements has lag or bad FPS)</td>
+</tr>
+<tr>
+<td align="center">All</td>
+<td align="left">Roms can't save ingame. Its only possible through menu save states</td>
+</tr>
+<tr>
+<td align="center">All</td>
+<td align="left">Console doesn't support the VRC7 sound chip</td>
+</tr>
+<tr>
+<td align="center">1</td>
+<td align="left">Installing CFW requires hardware modifications &amp; soldering</td>
+</tr>
+<tr>
+<td align="center">1 - 2</td>
+<td align="left">Multi-Cart roms may cause issues on normal console functionallity</td>
+</tr>
+<tr>
+<td align="center">1 - 2 - 2.5</td>
+<td align="left">Ghost keys (Bad key pressing) when press more than 3 keys</td>
+</tr>
+</tbody>
+</table>
+<h1 id="stock-firmware-miyoo-game-compatibility">Stock Firmware Miyoo Game Compatibility</h1>
+<p>The next list only applies to the 1st and 2nd revisions of the console.</p>
+<table>
+<thead>
+<tr>
+<th align="center">Playable</th>
+<th align="center">Type</th>
+<th align="left">Game</th>
+<th align="left">Issue</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">No</td>
+<td align="center">GBC</td>
+<td align="left">Shantae</td>
+<td align="left">Flashing graphics and low fps</td>
+</tr>
+<tr>
+<td align="center">No</td>
+<td align="center">NES</td>
+<td align="left">Lion King</td>
+<td align="left">Screen flickering</td>
+</tr>
+<tr>
+<td align="center">No</td>
+<td align="center">NES</td>
+<td align="left">Aladdin</td>
+<td align="left">Freezes after the menu</td>
+</tr>
+<tr>
+<td align="center">Yes</td>
+<td align="center">NES</td>
+<td align="left">Castlevania III</td>
+<td align="left">Audio problems</td>
+</tr>
+<tr>
+<td align="center">Yes</td>
+<td align="center">GB</td>
+<td align="left">Pokémon Red &amp; Blue</td>
+<td align="left">Audio problems</td>
+</tr>
+<tr>
+<td align="center">No</td>
+<td align="center">NES</td>
+<td align="left">Super Pang</td>
+<td align="left">Doesn't start</td>
+</tr>
+<tr>
+<td align="center">No</td>
+<td align="center">NES</td>
+<td align="left">Battletoads</td>
+<td align="left">Freezes after start cutscene</td>
+</tr>
+<tr>
+<td align="center">Yes</td>
+<td align="center">GBC</td>
+<td align="left">Infinity</td>
+<td align="left">Doesn't sound quite correct</td>
+</tr>
+<tr>
+<td align="center">Yes</td>
+<td align="center">NES</td>
+<td align="left">Lagrange Point</td>
+<td align="left">Sound problems due inexistence of VRC7 chip</td>
+</tr>
+<tr>
+<td align="center">Yes</td>
+<td align="center">GBC</td>
+<td align="left">Zelda Oracles</td>
+<td align="left">Freezes when use lowercase in character creation</td>
+</tr>
+<tr>
+<td align="center">Yes</td>
+<td align="center">GBC</td>
+<td align="left">Pokémon Puzzle League</td>
+<td align="left">Graphic glitches on some sprites</td>
+</tr>
+<tr>
+<td align="center">Yes</td>
+<td align="center">GBC</td>
+<td align="left">Ghost n' Goblins</td>
+<td align="left">Graphic glitches on some sprites</td>
+</tr>
+</tbody>
+</table>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
