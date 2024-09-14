@@ -1,13 +1,14 @@
 site_name: 'MiyooCFW docs'
-#site_url: http://htmlpreview.github.io/?https://github.com/MiyooCFW/docs/blob/master/site/index.html
-repo_url: http://github.com/TriForceX/MiyooCFW/wiki
-site_description: MiyooCFW development docummentation
+#site_url: http://MiyooCFW.github.io
+#repo_url: https://github.com/MiyooCFW/docs
+#edit_uri: blob/site/
+site_description: MiyooCFW development documentation
 site_author: TriForceX
 site_dir: site
 docs_dir: 'MiyooCFW.wiki'
 theme: 'readthedocs'
 nav:
-- 'Miyoo CFW 2.0.0':
+- 'CFW 2.0.0':
   - Home: 'Home.md'
   - Console Hotkeys: 'Console-Hotkeys.md'
   - Build Image and SDK: 'Build-Image-and-SDK.md'
@@ -20,7 +21,7 @@ nav:
   - Bug Reporting: 'https://github.com/TriForceX/MiyooCFW/issues'
   - Discussions Topics: 'https://github.com/TriForceX/MiyooCFW/discussions'
 
-- 'Miyoo CFW 1.3.3':
+- 'CFW 1.3.3':
   - Overview: 'Overview.md'
   - Making-Games-DEPRECATED: 'Making-Games-DEPRECATED.md'
   - Build Source-DEPRECATED: 'Build-Source-DEPRECATED.md'
@@ -31,18 +32,42 @@ nav:
   - Homebrew Info: 'Homebrew-Info.md'
   - DosBox Setup: 'DosBox-Setup.md'
   - RetroArch Setup: 'RetroArch-Setup.md'
+  - 'GameBoy':
+    - GamBatte: 'GamBatte.md'
+    - OhBoy: 'OhBoy.md'
+  - 'Gameboy Advance':
+    - gpSP: 'GPSP.md'
+  - 'Arcade':
+    - MAME4All: 'MAME4All.md'
+    - GnGeo: 'GnGeo.md'
+    - FBA-A320: 'FBA-A320.md'
+  - 'PlayStation':
+    - PCSX-ReARMed: 'PCSX-ReARMed.md'
 
-- 'GameBoy':
-  - GamBatte: 'GamBatte.md'
-  - OhBoy: 'OhBoy.md'
+- 'Themes':
+  - 'GMenu2X':
+    - Fontixel: 'Fontixel.md'
+    - NewComicBook: 'NewComicBook.md'
+    - Retro Pixel BR: 'https://github.com/mrwasterbr/retropixelbr'
+  - 'SimpleMenu':
+    - SimUI: 'https://github.com/dkodr/SimUI'
 
-- 'Gameboy Advance':
-  - gpSP: 'GPSP.md'
+- 'Frontends':
+  - CoverFlow: 'https://github.com/peterthrees/Coverflow'
+  - SimpleMenu: 'https://github.com/fgl82/simplemenu'
+  - GMenu2X: 'https://github.com/MiyooCFW/gmenu2x'
 
-- 'Arcade':
-  - MAME4All: 'MAME4All.md'
-  - GnGeo: 'GnGeo.md'
-  - FBA-A320: 'FBA-A320.md'
+- 'Projects':
+  - Tiny LLM: 'Tiny-LLM.md'
 
-- 'PlayStation':
-  - PCSX-ReARMed: 'PCSX-ReARMed.md'
+- 'Modding':
+  - 'ALL':
+    - Improve Directional Pad: 'Improve-Directional-Pad.md'
+  - 'V90':
+    - USB-C Fix: 'https://www.nfriedly.com/techblog/2021-10-10-v90-usb-c'
+  - 'PocketGo':
+    - Sound Noise Fix: 'Sound-Noise-Fix.md'
+    - Light Bleed Fix: 'Light-Bleed-Fix.md'
+  - 'BittBoy':
+    - Ghost Key Fix: 'Ghost-Key-Fix.md'
+    - Shoulder Buttons: 'Shoulder-Buttons.md'
