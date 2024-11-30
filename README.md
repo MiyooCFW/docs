@@ -1,4 +1,4 @@
-# MiyooCFW documentation pages (WIP)
+# MiyooCFW documentation pages
 
 ### Preview:
 
