@@ -1,0 +1,24 @@
+# GPSP Game Boy Advance Emulator
+
+**Note:** This list may not be 100% accurate, some games may crash at certain point, if you have an update for this list tell us on our _Discord_ server [here](https://discord.gznetwork.com) or in [this thread](https://github.com/TriForceX/MiyooCFW/discussions/482).
+
+| Games                                                                  | Performance | Notes                                                                                                                                       |
+|------------------------------------------------------------------------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| Mario Kart Super Circuit (USA) V.1                                    | Good        |                                                                                                                                             |
+| SpongeBob Square Pants Super Sponge (USA) V.1                         | Good        |                                                                                                       |
+| Sonic Advance (Europe) V.1                                            | Good        | Small audio glitches (When you enter in a door)                                                                                             |
+| Super Mario Advance: Super Mario Bros 2 (USA) V.1                     | Good        | Small graphical glitches (In some text boxes - switch palace and BONUS entering screen, the "distortion effect" during the intro of a level is not present)                                                     |
+| Super Mario Advance 2: Super Mario World (USA) V.1                    | Good        | Small graphical glitches (During the Level intro the screen is blue instead of black)                                                       |
+| Super Mario Advance 4: Super Mario Bros 3 (USA, E-Reader Patch) V.1.1 | Good        |                                                                                                                                             |
+| Pokémon Sapphire (USA) V.1                                            | Good        | Missing graphic effects and small audio glitches when your HP is low (The distortion effect when your pokemon gets poisoned is not present) |
+| Pokémon Pinball (Europe) V.1                                          | Good        |                                                                                                                                             |
+| Rayman 3 (USA) V.1                                                    | Good        | Text in text boxes are completely gone                                                                                                      |
+| Crash Bandicoot The Huge Adventure V.1                                | Good        |                                                                                                                                             |
+| Golden Sun                                                            | Good        | Crashes after defeat the boss Kraken                                                                                                    |
+| The Legend of Zelda - The Minish Cap                                  | Good        | Crashes while playing the last dungeon                                                                                                      |
+| Mario Golf - Advance Tour                                             | Good        | Crashes while you are creating a new character                                                                                                      |
+| Mario Tennis - Power Tour                                             | Good        | Crashes while you are creating a new character                                                                                                     |
+| Banjo-Kazooie - Grunty's Revenge                                      | Good        | Crashes after the title screen                                                                                                      |
+| Castlevania - Harmony of Dissonance                                   | Good        | Crashes in the final battle against Dracula                                                                                                     |
+| Batman Begins                                                         | Good        | Crashes just after the fire scene on the first level                                                                                                      |
+| Teen Titans                                                           | Good        | Has graphical rendering issues right at the start (in the intro and game menu)

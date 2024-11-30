@@ -5,8 +5,8 @@ site_name: 'MiyooCFW docs'
 site_description: MiyooCFW development documentation
 site_author: TriForceX
 site_dir: site
-docs_dir: 'MiyooCFW.wiki'
-theme: 'readthedocs'
+docs_dir: docs
+theme: readthedocs
 nav:
 - 'CFW 2.0.0':
   - Home: 'Home.md'
