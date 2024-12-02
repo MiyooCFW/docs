@@ -16,6 +16,7 @@ cd buildroot
 2. Shared musl Image and SDK
 3. Static uClibc SDK only
 4. Static musl SDK only
+
 > **_NOTE:_**  You can build only one type of source, after each build you need to clean workspace by using `make clean`
 
 > **_NOTE:_**  Difference between static and shared: [Static library](https://en.wikipedia.org/wiki/Static_library) [Shared_library](https://en.wikipedia.org/wiki/Shared_library)
