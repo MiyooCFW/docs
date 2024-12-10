@@ -2,13 +2,13 @@
 
 <img src="https://github.com/TriForceX/MiyooCFW/assets/16083854/51119d94-24a5-47b7-8bbd-f93b997c36c1">
 
+</div>
+
 > The definitive custom firmware for **BittBoy**, **PocketGo**, **PowKiddy V90-Q90-Q20** _(and 3rd party consoles)_ allows you unlock the potential of the hardware and use software from a wide variety of consoles and computers thanks to the availability of numerous emulators and native ports of several games!
 
 ---
 
-![miyoo-consoles](https://user-images.githubusercontent.com/16083854/221029395-26b04557-dccf-40bd-a059-b9928553ee4f.png)
-
-</div>
+![miyoo_consoles](https://user-images.githubusercontent.com/16083854/221029395-26b04557-dccf-40bd-a059-b9928553ee4f.png)
 
 ## Compatible Consoles
 - BittBoy v1, v2, v2.5, v3, v3.5
