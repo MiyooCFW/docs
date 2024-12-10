@@ -6,7 +6,10 @@ site_description: MiyooCFW development documentation
 site_author: TriForceX
 site_dir: site
 docs_dir: docs
-theme: material
+theme:
+  name: material
+  palette:
+    scheme: slate
 nav:
 - 'CFW 2.0.0':
   - Home: 'Home.md'
