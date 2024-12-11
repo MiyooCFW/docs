@@ -45,7 +45,7 @@ Start by testing with the 260K which is mediocre in result but has good performa
 You need to add the models to the `llama2.c` folder in the console and run the script.
 Here are some images of the two smallest models.
 
-![image](https://github.com/TriForceX/MiyooCFW/assets/16083854/4af35538-f330-49dc-94c6-4b0685994f53)
+![tiny_llm](imgs/tiny-llm.png)
 
 Sources:
 - https://github.com/karpathy/llama2.c?tab=readme-ov-file thanks to Andrej Karpathy for that

@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://github.com/TriForceX/MiyooCFW/assets/16083854/51119d94-24a5-47b7-8bbd-f93b997c36c1">
+<img src=imgs/miyoo-cfw.png>
 
 </div>
 
@@ -8,9 +8,10 @@
 
 ---
 
-![miyoo_consoles](https://user-images.githubusercontent.com/16083854/221029395-26b04557-dccf-40bd-a059-b9928553ee4f.png)
+![miyoo-consoles](imgs/miyoo-consoles.png)
 
 ## Compatible Consoles
+
 - BittBoy v1, v2, v2.5, v3, v3.5
 - Pocket Go
 - PowKiddy Q90
@@ -34,22 +35,24 @@ Is <b>highly</b> recommended to <b><u>NOT</u></b> use the SD card included in th
 
 ---
 
-
 ### Shutting down the console
+
 - Version 2.0.0 uses the BTRFS file system to prevent data corruption during an unsafe shutdown. This system automatically writes data every 5 seconds, so if you save a game and immediately turn off the console, the save may be lost. Therefore, it is safe to wait at least 5 seconds before shutting down the system or to perform a proper shutdown procedure.
 - To safely shut down the console from GMenu2X:
-  - Exit from the emulator or game you are playing to return to the main menu (gmenu)
-  - Press the R/Reset(HOME) button to open the Power Menu
-  - Press A to shut down
-  - Alternatively, you can go to the settings section and use the "Shutdown" icon or use the *Quick Shutdown Hotkey*
-  - When the screen turns black, flick the power switch
+	- Exit from the emulator or game you are playing to return to the main menu (gmenu)
+	- Press the R/Reset(HOME) button to open the Power Menu
+	- Press A to shut down
+	- Alternatively, you can go to the settings section and use the "Shutdown" icon or use the *Quick Shutdown Hotkey*
+	- When the screen turns black, flick the power switch
 
 ---
  
 ### Screen timeout/sleep mode (GMenu2X)
+
 This only applies while in the menu:
+
 - Holding the Start button button will put the device into sleep/suspend mode
-  - Press R/Reset(HOME) or Start again to wake it up
+- Press R/Reset(HOME) or Start again to wake it up
 - The default screen timeout is 30 seconds, after this the screen will go black (the device will go to sleep)
 - Power timeout is disabled by default
 
@@ -94,18 +97,21 @@ To enable TV-out, run "TVout ON/OFF" from the Apps section. The handheld will re
 ## Supported USB modes
 
 ### USB HID
+
 Turn your handheld into USB gamepad for PC/Android
 
     - Connect handheld to PC via USB
     - Run this USB HID app
     - Now you should be able to control PC/phone via handheld buttons
     - Press RESET button to leave USB HID mode
+	
 ### USB Host
+
 Allows to connect external device (keyboard, mouse, gamepad) to the handheld
 
     - You need the USB OTG "Y" cable (male type C, see pic) to supply power from the charger to the external device since handheld doesn't provide it, as well for the USB bus to be active.
 
-![type_c_cable](https://github.com/user-attachments/assets/4f90b0bd-3e1b-44ef-87d7-9719cdd5df8b)
+![type_c_cable](imgs/type_c_cable.jpg)
 
     - Connect the external device to the handheld with external power
 
@@ -116,20 +122,25 @@ Allows to connect external device (keyboard, mouse, gamepad) to the handheld
     - Check the assigned IP in the show IP addr app
 
 
-### USB MTP 
+### USB MTP
+
 Allows to transfer files between a handheld and a PC using a USB connection
 
-### USB Network 
+### USB Network
+
 Enable network on the handheld
 
     - IP address of handheld: 192.168.137.1
     - After enabling this mode you can start FTP server app or SSH server app or play multiplayer (netplay) in Retroarch
-### USB Serial console 
+
+### USB Serial console
+
 Allows connection to a handheld terminal using a serial port (COM port)
 
 ---
 
 ### Alternative to access the "main" BTRFS partition on Windows (SD card)
+
 [BTRFS driver for windows](https://github.com/maharmstone/btrfs)
 
 ---
