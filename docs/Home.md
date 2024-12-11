@@ -1,10 +1,8 @@
 
 ![miyoo-cfw](imgs/miyoo-cfw.png)
 
-<div align="center">
-	<blockquote>
-	The definitive custom firmware for <b>BittBoy</b>, <b>PocketGo</b>, <b>PowKiddy V90-Q90-Q20</b> <i>(and 3rd party consoles)</i> allows you unlock the potential of the hardware and use software from a wide variety of consoles and computers thanks to the availability of numerous emulators and native ports of several games!
-	</blockquote>
+<div markdown="1" align="center">
+> The definitive custom firmware for <b>BittBoy</b>, <b>PocketGo</b>, <b>PowKiddy V90-Q90-Q20</b> <i>(and 3rd party consoles)</i> allows you unlock the potential of the hardware and use software from a wide variety of consoles and computers thanks to the availability of numerous emulators and native ports of several games!
 </div>
 
 ---
