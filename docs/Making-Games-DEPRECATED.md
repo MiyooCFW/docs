@@ -1,5 +1,4 @@
-# This guide may be outdated!
-Since [Version 2.0.0 Beta](https://github.com/TriForceX/MiyooCFW/releases/tag/2.0.0-beta) was pre-released the following guide will change or be updated and the current one may be only for the old version 1.3.3. Be careful!
+# Version 1.3.3 - deprecated
 
 ---
 

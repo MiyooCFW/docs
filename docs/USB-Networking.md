@@ -14,7 +14,7 @@
 
 For the below modes you need the USB OTG "Y" cable (male type C, see pic) to supply power from the charger to the external device since handheld doesn't provide it, as well for the USB bus to be active.
 
-![type_c_cable](https://github.com/user-attachments/assets/4f90b0bd-3e1b-44ef-87d7-9719cdd5df8b)
+![type_c_cable](imgs/type_c_cable.jpg)
 
 ### Connect Android phone with USB tethering:
 

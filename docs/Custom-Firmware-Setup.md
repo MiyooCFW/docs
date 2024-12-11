@@ -1,19 +1,18 @@
-# This guide may be outdated!
-Since [Version 2.0.0 Beta](https://github.com/TriForceX/MiyooCFW/releases/tag/2.0.0-beta) was pre-released the following guide will change or be updated and the current one may be only for the old version 1.3.3. Be careful!
+# Version 1.3.3 - deprecated
 
 ---
 
-The next guides are to install custom firmware **1.3.3** and below, download links are provide inside. If you need to take some stuff from older CFW file you may use this metod [here](https://github.com/TriForceX/NewBittboyCFW/wiki/Custom-Firmware-Update).
+The next guides are to install custom firmware **1.3.3** and below, download links are provide inside. If you need to take some stuff from older CFW file you may use this method [here](Custom-Firmware-Update.md).
 
-If you don't know your console version you can take a look on the **console revision differences** [here](https://github.com/TriForceX/MiyooCFW/blob/master/README.md#console-revisions-differences).
+If you don't know your console version you can take a look on the **console revision differences** [here](console-revisions-differences.md).
 
 **Note:** Is highly recommended to not use the included SD card in the package due the bad quality of this causes data corruption in most of cases.
 
-<details><summary>Flashing on Mac</summary>
+<div markdown="1">
+<details>
+<summary>Flashing on Mac</summary>
 
----
-
-**Steps to flash an SD card:**
+### Steps to flash an SD card:
 
 1. Check the "/dev/disk" number of your SD card in Disk Utility.
 2. Open the Terminal app
@@ -60,7 +59,7 @@ When successful, you'll be greeted with an old-type, Windows-like blue/system sc
 ---
 
 </details>
-
+</div>
 # Pocket Go and PowKiddy Q90-V90-Q20
 
 <details><summary>English Guide</summary>

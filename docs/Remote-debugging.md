@@ -27,5 +27,5 @@ gdbserver 192.168.137.1:9999 ./<application>
 ```
 4. Start debugging in VS code (Run->Start Debugging)
 
-[![image](https://github.com/user-attachments/assets/f86e0869-414f-46b2-836f-7c1dc13e8ba7)](https://github.com/user-attachments/assets/f86e0869-414f-46b2-836f-7c1dc13e8ba7)
+![gdb_remote](imgs/gdb_remote.png)
 
