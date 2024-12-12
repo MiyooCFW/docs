@@ -8,8 +8,7 @@ If you don't know your console version you can take a look on the **console revi
 
 **Note:** Is highly recommended to not use the included SD card in the package due the bad quality of this causes data corruption in most of cases.
 
-<div markdown="1">
-<details>
+<details markdown="1">
 <summary>Flashing on Mac</summary>
 
 ### Steps to flash an SD card:
@@ -44,7 +43,7 @@ When successful, you'll be greeted with an old-type, Windows-like blue/system sc
 > You can download the GParted LiveCD ISO here: https://gparted.org/download.php
 > Choose the "amd64" (64-bit) version, as all Intel Macs are 64-bit. (Only old PowerPC Macs are 32-bit.)
 
-![image](https://user-images.githubusercontent.com/4543835/147808031-d88cca11-6b97-4c2c-a588-4ea2906f9d7a.png)
+![image](imgs/147808031-d88cca11-6b97-4c2c-a588-4ea2906f9d7a.png)
 
 1. By default, GParted will load your Mac's hard drive first. Make sure you switch to your SD card using the top-right dropdown menu button!
 
@@ -59,15 +58,14 @@ When successful, you'll be greeted with an old-type, Windows-like blue/system sc
 ---
 
 </details>
-</div>
 # Pocket Go and PowKiddy Q90-V90-Q20
 
-<details><summary>English Guide</summary>
+<details markdown="1"><summary>English Guide</summary>
 
 ---
 
-<a href="https://www.youtube.com/watch?v=YFdZEh4gAM8"><img width="49%" src="https://user-images.githubusercontent.com/16083854/62875006-380c1680-bcf0-11e9-9953-3f3f996926c1.png"></a>
-<a href="https://user-images.githubusercontent.com/16083854/59299539-e0ebb600-8c5a-11e9-91bb-f9386ec71d1c.png"><img width="49%" src="https://user-images.githubusercontent.com/16083854/59299539-e0ebb600-8c5a-11e9-91bb-f9386ec71d1c.png"></a>
+[![youtube](imgs/62875006-380c1680-bcf0-11e9-9953-3f3f996926c1.png)](https://www.youtube.com/watch?v=YFdZEh4gAM8)
+![img](imgs/59299539-e0ebb600-8c5a-11e9-91bb-f9386ec71d1c.png)
 
 ## 1) Materials
 
@@ -94,15 +92,15 @@ When successful, you'll be greeted with an old-type, Windows-like blue/system sc
 - If you have problems to access the **"main"** partition on Windows 7 or 8 please read [here](https://github.com/TriForceX/MiyooCFW/wiki/Miyoo-CFW#alternative-to-access-the-main-partition-on-windows-7-or-8)
 
 ---
-
 </details>
 
-<details><summary>Korean Guide</summary>
+
+<details markdown="1"><summary>Korean Guide</summary>
 
 ---
 	
-<a href="https://www.youtube.com/watch?v=YFdZEh4gAM8"><img width="49%" src="https://user-images.githubusercontent.com/16083854/62875006-380c1680-bcf0-11e9-9953-3f3f996926c1.png"></a>
-<a href="https://user-images.githubusercontent.com/16083854/59299539-e0ebb600-8c5a-11e9-91bb-f9386ec71d1c.png"><img width="49%" src="https://user-images.githubusercontent.com/16083854/59299539-e0ebb600-8c5a-11e9-91bb-f9386ec71d1c.png"></a>
+[![youtube](imgs/62875006-380c1680-bcf0-11e9-9953-3f3f996926c1.png)](https://www.youtube.com/watch?v=YFdZEh4gAM8)
+![img](imgs/59299539-e0ebb600-8c5a-11e9-91bb-f9386ec71d1c.png)
 
 ## 1) 준비물
 
@@ -134,12 +132,12 @@ When successful, you'll be greeted with an old-type, Windows-like blue/system sc
 
 # New BittBoy v3 and v3.5
 
-<details><summary>English Guide</summary>
+<details markdown="1"><summary>English Guide</summary>
 
 ---
 
-<a href="https://www.youtube.com/watch?v=cCNKwWwQIXI"><img width="49%" src="https://user-images.githubusercontent.com/16083854/65471143-7abf2380-de44-11e9-9148-5fee8c6afeaf.png"></a>
-<a href="https://user-images.githubusercontent.com/16083854/59290986-d70c8780-8c47-11e9-94e2-5ab6e87e1289.png"><img width="49%" src="https://user-images.githubusercontent.com/16083854/59290986-d70c8780-8c47-11e9-94e2-5ab6e87e1289.png"></a>
+[![youtube](imgs/65471143-7abf2380-de44-11e9-9148-5fee8c6afeaf.png)](https://www.youtube.com/watch?v=cCNKwWwQIXI)
+![img](imgs/59290986-d70c8780-8c47-11e9-94e2-5ab6e87e1289.png)
 
 ## 1) Materials
 
@@ -169,12 +167,12 @@ When successful, you'll be greeted with an old-type, Windows-like blue/system sc
 
 </details>
 
-<details><summary>Korean Guide</summary>
+<details markdown="1"><summary>Korean Guide</summary>
 
 ---
 
-<a href="https://www.youtube.com/watch?v=cCNKwWwQIXI"><img width="49%" src="https://user-images.githubusercontent.com/16083854/65471143-7abf2380-de44-11e9-9148-5fee8c6afeaf.png"></a>
-<a href="https://user-images.githubusercontent.com/16083854/59290986-d70c8780-8c47-11e9-94e2-5ab6e87e1289.png"><img width="49%" src="https://user-images.githubusercontent.com/16083854/59290986-d70c8780-8c47-11e9-94e2-5ab6e87e1289.png"></a>
+[![youtube](imgs/65471143-7abf2380-de44-11e9-9148-5fee8c6afeaf.png)](https://www.youtube.com/watch?v=cCNKwWwQIXI)
+![img](imgs/59290986-d70c8780-8c47-11e9-94e2-5ab6e87e1289.png)
 
 ## 1) 준비물
 
@@ -206,12 +204,12 @@ When successful, you'll be greeted with an old-type, Windows-like blue/system sc
 
 # New BittBoy v2 and v2.5
 
-<details><summary>English Guide</summary>
+<details markdown="1"><summary>English Guide</summary>
 
 ---
 
-<a href="https://www.youtube.com/watch?v=i62_J6SAN9s"><img width="49%" src="https://user-images.githubusercontent.com/16083854/65471142-7a268d00-de44-11e9-9007-a851756119e4.png"></a>
-<a href="https://user-images.githubusercontent.com/16083854/59290986-d70c8780-8c47-11e9-94e2-5ab6e87e1289.png"><img width="49%" src="https://user-images.githubusercontent.com/16083854/59290986-d70c8780-8c47-11e9-94e2-5ab6e87e1289.png"></a>
+[![youtube](imgs/65471142-7a268d00-de44-11e9-9007-a851756119e4.png)](https://www.youtube.com/watch?v=i62_J6SAN9s)
+![img](imgs/59290986-d70c8780-8c47-11e9-94e2-5ab6e87e1289.png)
 
 ## 1) Materials
 
@@ -239,12 +237,12 @@ When successful, you'll be greeted with an old-type, Windows-like blue/system sc
 
 </details>
 
-<details><summary>Korean Guide</summary>
+<details markdown="1"><summary>Korean Guide</summary>
 
 ---
 
-<a href="https://www.youtube.com/watch?v=i62_J6SAN9s"><img width="49%" src="https://user-images.githubusercontent.com/16083854/65471142-7a268d00-de44-11e9-9007-a851756119e4.png"></a>
-<a href="https://user-images.githubusercontent.com/16083854/59290986-d70c8780-8c47-11e9-94e2-5ab6e87e1289.png"><img width="49%" src="https://user-images.githubusercontent.com/16083854/59290986-d70c8780-8c47-11e9-94e2-5ab6e87e1289.png"></a>
+[![youtube](imgs/65471142-7a268d00-de44-11e9-9007-a851756119e4.png)](https://www.youtube.com/watch?v=i62_J6SAN9s)
+![img](imgs/59290986-d70c8780-8c47-11e9-94e2-5ab6e87e1289.png)
 
 ## 1) 준비물
 
@@ -274,11 +272,11 @@ When successful, you'll be greeted with an old-type, Windows-like blue/system sc
 
 # New BittBoy v1
 
-<details><summary>English Guide</summary>
+<details markdown="1"><summary>English Guide</summary>
 
 ---
 
-[![click here](https://user-images.githubusercontent.com/16083854/65471957-9d067080-de47-11e9-8ff7-ae0f43aee093.png)](https://www.youtube.com/watch?v=FjQquL3W99U)
+[![click here](imgs/65471957-9d067080-de47-11e9-8ff7-ae0f43aee093.png)](https://www.youtube.com/watch?v=FjQquL3W99U)
 
 ## 1) Materials
 1. New Bittboy - rev1 (early version)
@@ -295,17 +293,17 @@ When successful, you'll be greeted with an old-type, Windows-like blue/system sc
 
 ## 3.1) Hardware Mod (hwmod)
 1. Unscrew the 6 screws to release the case.\
-![image1](https://user-images.githubusercontent.com/16083854/65471949-9bd54380-de47-11e9-879b-01f39a192205.png)
+![image1](imgs/65471949-9bd54380-de47-11e9-879b-01f39a192205.png)
 2. Check the display area. If the LCD connector is not on the display, it is Rev2.\
-![image2](https://user-images.githubusercontent.com/16083854/65471950-9c6dda00-de47-11e9-9e80-6268b10f22dc.png)
+![image2](imgs/65471950-9c6dda00-de47-11e9-9e80-6268b10f22dc.png)
 3. Remove resistors R75, R76, R78.
 4. DM, DP solder joint (lead to ground).\
-![image3](https://user-images.githubusercontent.com/16083854/65471951-9c6dda00-de47-11e9-9cfc-f927d244e173.png)
+![image3](imgs/65471951-9c6dda00-de47-11e9-9cfc-f927d244e173.png)
    - before work\
-![image4](https://user-images.githubusercontent.com/16083854/65471952-9c6dda00-de47-11e9-8680-0062a4c8f20b.png)
+![image4](imgs/65471952-9c6dda00-de47-11e9-8680-0062a4c8f20b.png)
    - After work
 5. Ground the jumper wire on the 2nd pin of the SPI IC chip.\
-![image5](https://user-images.githubusercontent.com/16083854/65471953-9c6dda00-de47-11e9-81a6-e5f229a2bc8c.png)
+![image5](imgs/65471953-9c6dda00-de47-11e9-81a6-e5f229a2bc8c.png)
 
 ## 3.2) Building SPI Flashing Environment
 1. Install Debian or Ubuntu on your PC.
@@ -340,7 +338,7 @@ When successful, you'll be greeted with an old-type, Windows-like blue/system sc
 8. Disconnect the New BittBoy from the PC and turn off the power.
 9. Assemble the New Bittboy main body and turn on the power.
 10. If the following screen is displayed, it is success.\
-![image6](https://user-images.githubusercontent.com/16083854/65471954-9c6dda00-de47-11e9-80f1-d2d3799d8587.png)
+![image6](imgs/65471954-9c6dda00-de47-11e9-80f1-d2d3799d8587.png)
 
 # 3.4) Burning an Image to an SD Card
 1. Download the latest MiOS image from Steward-fu's github. https://github.com/MiyooCFW/miyoo_rel
@@ -352,19 +350,19 @@ When successful, you'll be greeted with an old-type, Windows-like blue/system sc
 3. Download `win32diskimager` and install it.
    https://win32diskimager.org/
 4. Execute `win32diskimager`, select SD driver, load MiOS image and press **"Write"** button to proceed.\
-![image7](https://user-images.githubusercontent.com/16083854/65471955-9c6dda00-de47-11e9-818f-3aac0e6989e2.png)
+![image7](imgs/65471955-9c6dda00-de47-11e9-818f-3aac0e6989e2.png)
 5. Once the image is burned, insert SD into New Bittboy and turn it on. If it boots like below, it is a success.\
-![image8](https://user-images.githubusercontent.com/16083854/65471956-9d067080-de47-11e9-84c6-9a166f4f6eeb.png)
+![image8](imgs/65471956-9d067080-de47-11e9-84c6-9a166f4f6eeb.png)
 
 ---
 
 </details>
 
-<details><summary>Korean Guide</summary>
+<details markdown="1"><summary>Korean Guide</summary>
 
 ---
 
-[![click here](https://user-images.githubusercontent.com/16083854/65471957-9d067080-de47-11e9-8ff7-ae0f43aee093.png)](https://www.youtube.com/watch?v=FjQquL3W99U)
+[![click here](imgs/65471957-9d067080-de47-11e9-8ff7-ae0f43aee093.png)](https://www.youtube.com/watch?v=FjQquL3W99U)
 
 ## 1) 준비물
 1. New Bittboy - rev1(초기 버전)
@@ -381,17 +379,17 @@ When successful, you'll be greeted with an old-type, Windows-like blue/system sc
 
 ## 3.1 하드웨어 모드(hwmod)
 1. 나사를 풀어 케이스를 때어냅니다.\ 
-![image1](https://user-images.githubusercontent.com/16083854/65471949-9bd54380-de47-11e9-879b-01f39a192205.png)
+![image1](imgs/65471949-9bd54380-de47-11e9-879b-01f39a192205.png)
 2. 표시 부분을 확인합니다. LCD커넥터가 표시부분에 없다면, Rev2입니다.(간단히 구분방법)\
-![image2](https://user-images.githubusercontent.com/16083854/65471950-9c6dda00-de47-11e9-9e80-6268b10f22dc.png)
+![image2](imgs/65471950-9c6dda00-de47-11e9-9e80-6268b10f22dc.png)
 3. 저항 R75, R76, R78을 제거합니다.
 4. DM, DP 솔더 조인트합니다.(납으로 접지합니다.)\
-![image3](https://user-images.githubusercontent.com/16083854/65471951-9c6dda00-de47-11e9-9cfc-f927d244e173.png)
+![image3](imgs/65471951-9c6dda00-de47-11e9-9cfc-f927d244e173.png)
    - -수정전\
-![image4](https://user-images.githubusercontent.com/16083854/65471952-9c6dda00-de47-11e9-8680-0062a4c8f20b.png)
+![image4](imgs/65471952-9c6dda00-de47-11e9-8680-0062a4c8f20b.png)
    - -수정후
 5. SPI IC칩의 2번에 점퍼선을 접지합니다.\
-![image5](https://user-images.githubusercontent.com/16083854/65471953-9c6dda00-de47-11e9-81a6-e5f229a2bc8c.png)
+![image5](imgs/65471953-9c6dda00-de47-11e9-81a6-e5f229a2bc8c.png)
  
 
 ## 3.2) SPI플레싱 환경 구축
@@ -427,7 +425,7 @@ When successful, you'll be greeted with an old-type, Windows-like blue/system sc
 8. 뉴 비트보이(New Bittboy)와 PC를 연결 해제하고 전원을 끕니다.
 9. 뉴 비트보이(New Bittboy) 본체를 조립하고 전원을 킵니다.
 10. 다음과 같은 화면이 출력되면 성공입니다.\
-![image6](https://user-images.githubusercontent.com/16083854/65471954-9c6dda00-de47-11e9-80f1-d2d3799d8587.png)
+![image6](imgs/65471954-9c6dda00-de47-11e9-80f1-d2d3799d8587.png)
 
 ## 3.4) SD 카드에 이미지 굽기
 1. Steward-fu의 github에서 최신 MiOS이미지를 다운로드 합니다. https://github.com/MiyooCFW/miyoo_rel
@@ -438,9 +436,9 @@ When successful, you'll be greeted with an old-type, Windows-like blue/system sc
 2. SD카드의 파티션을 모두 제거하고 FAT32등으로 포맷합니다..(필자는 윈도우 디스크관리를 이용했습니다.)
 3. `win32diskimager`를 다운받고 설치합니다. https://win32diskimager.org/
 4. `win32diskimager`를 실행하고 SD드라이버를 선택 후 MiOS이미지를 불러온 후 "Write"버튼을 눌러 진행합니다.\
-![image7](https://user-images.githubusercontent.com/16083854/65471955-9c6dda00-de47-11e9-818f-3aac0e6989e2.png)
+![image7](imgs/65471955-9c6dda00-de47-11e9-818f-3aac0e6989e2.png)
 5. 이미지가 다 구워지면 뉴 비트보이(New Bittboy)에 SD를 삽입하고 전원을 킵니다. 아래와 같이 부팅되면 성공입니다.\
-![image8](https://user-images.githubusercontent.com/16083854/65471956-9d067080-de47-11e9-84c6-9a166f4f6eeb.png)
+![image8](imgs/65471956-9d067080-de47-11e9-84c6-9a166f4f6eeb.png)
 
 ---
 

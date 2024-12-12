@@ -2,7 +2,7 @@ Bittboy and PocketGo has some serious light bleed from the top and side of the L
 
 You need to cover the edges of the screen where the light can clean out. That's it!
 
-[![click here](https://user-images.githubusercontent.com/16083854/60680636-1058a180-9e5a-11e9-9b8f-b33a40555b14.png)](https://www.youtube.com/watch?v=-TDRbdsu2yg)
+[![click here](imgs/60680636-1058a180-9e5a-11e9-9b8f-b33a40555b14.png)](videos/Pocket-Go-Screen-Light-Bleed-Easy-Fix-PocketGo.mp4)
 
 Steps:
 

@@ -5,7 +5,7 @@ Since [Version 2.0.0 Beta](https://github.com/TriForceX/MiyooCFW/releases/tag/2.
 
 This guide is to update manually the version of an already installed Custom Firmware. Before start make sure you have installed _7-Zip_ Tool. _(You can download [here](https://www.7-zip.org/download.html))_
 
-<details><summary>English Guide</summary>
+<details markdown="1"><summary>English Guide</summary>
 
 ---
 
@@ -13,14 +13,14 @@ This guide is to update manually the version of an already installed Custom Firm
 1. Download CFW image for Bittboy or Pocket Go [(here)](https://github.com/TriForceX/NewBittboyCFW#setup)
 2. Extract the content of the zip file.
 3. Right click on the **.img** file and then > 7-Zip > Open Archive.
-![image 1](https://i.imgur.com/Z0V3nlk.jpg)
+![image 1](imgs/Z0V3nlk.jpeg)
 4. Left click on the file **"3.fat"** Then > Open.
-![image 2](https://i.imgur.com/XS7mu45.jpg)
+![image 2](imgs/XS7mu45.jpeg)
 5. Select all the files (Except the "roms" folder or any other with a custom configuration. Check carefully as the save files are usually stored in each folder inside "Roms", but in some cases they are saved in some folders of the emulators. In the other hand, new games for DOS may come, so you must check and copy them manually).
-![image 3](https://i.imgur.com/mAIGkef.jpg)
+![image 3](imgs/mAIGkef.jpeg)
 6. Copy all the files on the **"main"** partition of the SD.
-![image 4](https://i.imgur.com/Zyc2EWR.jpg)
-![image 5](https://i.imgur.com/9Xp74zn.jpg)
+![image 4](imgs/Zyc2EWR.jpeg)
+![image 5](imgs/9Xp74zn.jpeg)
 
 ## 2) Final step (Boot partition)
 
@@ -35,7 +35,7 @@ This guide is to update manually the version of an already installed Custom Firm
 ---
 
 </details>
-<details><summary>Korean Guide</summary>
+<details markdown="1"><summary>Korean Guide</summary>
 
 ---
 
@@ -47,14 +47,14 @@ This guide is to update manually the version of an already installed Custom Firm
 1. Bittboy 또는 Pocket Go 용 CFW 이미지 다운로드 [(바로 여기에)](https://github.com/TriForceX/NewBittboyCFW#setup)
 2. .7z 파일을 압축 풀어줍니다.
 3. **.img** 파일을 마우스 오른쪽 버튼으로 클릭 한 다음 > 7-Zip > "압축파일 열기"를 클릭합니다.
-![image 1](https://i.imgur.com/Z0V3nlk.jpg)
+![image 1](imgs/Z0V3nlk.jpeg)
 4. **"3.fat"** 파일을 더블클릭 하거나 마우스 오른쪽 버튼을 누른 다음 "열기(O)"를 클릭니다.
-![image 2](https://i.imgur.com/XS7mu45.jpg)
+![image 2](imgs/XS7mu45.jpeg)
 5. 모든 파일을 선택하십시오 ("roms"폴더 또는 기타 사용자 정의 구성 제외. 저장 파일은 일반적으로 "Roms"내의 각 폴더에 저장되므로주의하여 확인하십시오. 그러나 경우에 따라 에뮬레이터의 일부 폴더에 저장됩니다. 반면에 DOS 용 새 게임이 출시 될 수 있으므로 직접 검토하고 복사해야합니다).
-![image 3](https://i.imgur.com/mAIGkef.jpg)
+![image 3](imgs/mAIGkef.jpeg)
 6. SD의 ** "mainX"** 파티션에있는 모든 파일을 복사하십시오.
-![image 4](https://i.imgur.com/Zyc2EWR.jpg)
-![image 5](https://i.imgur.com/9Xp74zn.jpg)
+![image 4](imgs/Zyc2EWR.jpeg)
+![image 5](imgs/9Xp74zn.jpeg)
 
 ## 2) 마지막 단계 (Boot 파티션)
 
@@ -69,7 +69,7 @@ This guide is to update manually the version of an already installed Custom Firm
 ---
 
 </details>
-<details><summary>Spanish Guide</summary>
+<details markdown="1"><summary>Spanish Guide</summary>
 
 ---
 
@@ -81,14 +81,14 @@ Esta guia es para actualizar la version de un Custom Firmware ya instalado.
 1. Descarga la imagen de CFW para Bittboy o Pocket Go [(here)](https://github.com/TriForceX/NewBittboyCFW#setup)
 2. Extrae los contenidos del archivo zip.
 3. Haz click izquierdo en el archivo **.img** luego elije Abrir con > 7-Zip.
-![image 1](https://i.imgur.com/Z0V3nlk.jpg)
+![image 1](imgs/Z0V3nlk.jpeg)
 4. Haz click izquierdo en **"3.fat"** y elije > Abrir.
-![image 2](https://i.imgur.com/XS7mu45.jpg)
+![image 2](imgs/XS7mu45.jpeg)
 5. Selecciona todos los archivos (Excepto la carpeta "Roms" o cualquier otra con una config. editada. Revisa cuidadosamente ya que eneralmente los archivos de guardado son almacenados en cada carpeta dentro de "Roms", pero en algunos casos se guardan en algunas carpetas de los emuladores. Por otro lado puede que vengan nuevos juegos para DOS, por lo que debes revisar y copiarlos manualmente-).
-![image 3](https://i.imgur.com/mAIGkef.jpg)
+![image 3](imgs/mAIGkef.jpeg)
 6. Copia todos los archivos en la particion **"main"** de la tarjeta SD
-![image 4](https://i.imgur.com/Zyc2EWR.jpg)
-![image 5](https://i.imgur.com/9Xp74zn.jpg)
+![image 4](imgs/Zyc2EWR.jpeg)
+![image 5](imgs/9Xp74zn.jpeg)
 
 ## 2) Paso final (Partición Boot)
 
