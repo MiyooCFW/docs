@@ -55,7 +55,7 @@
 - ALL
   - [[Improve Directional Pad]]
 - V90
-  - [USB-C Fix](https://www.nfriedly.com/techblog/2021-10-10-v90-usb-c)
+  - [USB-C Fix](Fixing-USB-C-charging-on-the-PowKiddy-V90.htm)
 - PocketGo
   - [[Sound Noise Fix]]
   - [[Light Bleed Fix]]
