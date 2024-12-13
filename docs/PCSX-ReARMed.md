@@ -2,7 +2,7 @@
 
 HYJiNX187's PCSX-Rearmed Config Library v1.0
 
-Download [here](https://drive.google.com/file/d/1WViPMmdi6SW5ibU2OuK5E7vFeCx2fGg-/view?usp=sharing)
+Download [here](assets/PCSX_Rearmed_CFG_2.zip)
 
 ```
 v1.1 Release Notes
@@ -19,29 +19,7 @@ v1.0 Release Notes
 
 ## Introduction
 
-This package was created to add PSX support on top of the guide
-that RetroGameCorps provided for the Powkiddy v90.
-
-The guide can be found at the following location:
-https://retrogamecorps.com/2021/02/01/review-powkiddy-v90/
-
-It is recommended that you follow this guide, including the step
-to install the updated pcsx binary.
-
-**NOTE:** The updated pcsx should show "October 2019" under the
-"Credits" submenu inside of pcsx. To make 100% sure you have this
-updated version, I am including the link below:
-
-https://retrogamecorps.files.wordpress.com/2021/02/pcsx.zip
-
-**YOU WILL NOT ACHIEVE 60FPS WITHOUT THE ABOVE PCSX VERSION!**
-
-Though this was designed and tested on the Powkiddy v90, these
-configs should work fine on all devices running Miyoo 1.3.3.
-(example powkiddy q90 and the first pocketgo)
-
-Your mileage may vary on devices other than the one I have 
-targetted with this release.
+This package was created to improve PSX support beyond default setup
 
 ## Pre-Requisites
 
@@ -96,8 +74,7 @@ the GameFAQs community and was created using the following thread
 
 https://gamefaqs.gamespot.com/boards/916392-playstation/73165050
 
-Both my package and RetroGameCorps Powkiddy v90 Guide are based on
-Miyoo CFW 1.3.3 which can be found here:
+My package is based on Miyoo CFW 1.3.3 which can be found here:
 
 https://github.com/TriForceX/MiyooCFW
 
@@ -105,7 +82,7 @@ PCSX-Rearmed was original ported by "Sauce" aka "GameBlaBla"
 https://github.com/gameblabla/pcsx_rearmed/
 
 The pcsx.dge and accompanying Gmenu2x entry are a work around for
-the following known issue:
+the following known issue (fixed in latest PCSX-ReARMed):
 
 https://github.com/notaz/pcsx_rearmed/issues/163
 
