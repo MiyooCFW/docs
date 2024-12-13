@@ -11,8 +11,8 @@
   
 ## Configure toolchain
 - Extract toolchain.7z into /opt/miyoo
-  - Download form [here](https://drive.google.com/file/d/1Zp6elbB3r4Hq7G7FKXNtBZMTz0H93RiY/view?usp=sharing)
-  - NOTE: Is recommended to build your own toolchain due it has received many updates, see [here](https://github.com/TriForceX/MiyooCFW/wiki/Making-Games#step-2)
+  - Download form [here](assets/toolchain.7z)
+  - NOTE: Is recommended to build your own toolchain due it has received many updates, see [here](Making-Games-DEPRECATED.md)
 - Export command
   - export PATH=$PATH:/opt/miyoo/bin
   
@@ -70,7 +70,7 @@
   
 ## Build Rootfs
 - You can use an already configured buildroot from https://github.com/MiyooCFW/buildroot
-  - See here: https://github.com/TriForceX/MiyooCFW/wiki/Making-Games#step-2
+  - See here: [Making-Games](Making-Games-DEPRECATED.md)
 - Or download buildroot-2018.02.9 from https://buildroot.org
 - Use config_buildroot-2018.02.9 and then make it
 - Toolchain location: /opt/miyoo

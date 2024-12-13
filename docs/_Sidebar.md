@@ -1,5 +1,5 @@
 ## Miyoo CFW 2.0.0
-- [Overview](https://github.com/TriForceX/MiyooCFW/wiki)
+- [Overview](index.md)
 - [[Console Hotkeys]]
 - [[Build Image and SDK]]
 - [[Build Kernel]]

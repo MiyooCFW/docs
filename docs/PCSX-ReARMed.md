@@ -157,7 +157,7 @@ _Don't you dare ask for PBPs or BIOS files!_
 # Compatibility List
 Thanks to $Lud for this guide
 
-Warning! This compatibility list is for the optimized PCSX ReARMed version of the wiki, see more here.
+Warning! This compatibility list is for the optimized PCSX ReARMed version on this page, see more here.
 
 | Game Title                    | Region       | Compatibility          | Device    | Average FPS | Comments                                                                                                                                                     |
 |-------------------------------|--------------|------------------------|-----------|-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
