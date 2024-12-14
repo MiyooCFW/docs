@@ -1,6 +1,6 @@
 ---
 
-# Version 1.3.3 - deprecated
+# Version 1.3.3
 
 ## OpenDingux for Miyoo/Bittboy/PocketGo Handheld
 

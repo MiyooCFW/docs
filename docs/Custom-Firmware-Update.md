@@ -1,8 +1,3 @@
-# This guide may be outdated!
-Since [Version 2.0.0 Beta](https://github.com/TriForceX/MiyooCFW/releases/tag/2.0.0-beta) was pre-released the following guide will change or be updated and the current one may be only for the old version 1.3.3. Be careful!
-
----
-
 This guide is to update manually the version of an already installed Custom Firmware. Before start make sure you have installed _7-Zip_ Tool. _(You can download [here](https://www.7-zip.org/download.html))_
 
 <details markdown="1"><summary>English Guide</summary>

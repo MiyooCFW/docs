@@ -27,25 +27,9 @@ markdown_extensions:
   - md_in_html
 copyright: Documentation for <b>Miyoo Custom Firmware</b>.
 nav:
-- 'CFW 2.0.0':
-  - Home: 'Home.md'
-  - Console Hotkeys: 'Console-Hotkeys.md'
-  - Build Image and SDK: 'Build-Image-and-SDK.md'
-  - Build Kernel: 'Build-Kernel.md'
-  - Build uBoot: 'Build-uBoot.md'
-  - Get the prebuilt SDK from GH actions: 'Get-the-prebuilt-SDK-from-GH-actions.md'
-  - Making Games: 'Making-Games.md'
-  - Using Docker to Compile Games: 'Using-Docker-to-Compile-Games.md'
-  - Remote debugging: 'Remote-debugging.md'
-  - USB Networking: 'USB-Networking.md'
-  - Bug Reporting: 'https://github.com/TriForceX/MiyooCFW/issues'
-  - Discussions Topics: 'https://github.com/TriForceX/MiyooCFW/discussions'
-
-- 'CFW 1.3.3':
-  - Overview: 'Overview.md'
-  - Making-Games: 'Making-Games-DEPRECATED.md'
-  - Build Source: 'Build-Source-DEPRECATED.md'
-  - Custom Firmware Setup: 'Custom-Firmware-Setup.md'
+- Making-Games: 'Making-Games-DEPRECATED.md'
+- Build Source: 'Build-Source-DEPRECATED.md'
+- Custom Firmware Setup: 'Custom-Firmware-Setup.md'
 
 - 'Applications':
   - Emulator Info: 'Emulator-Info.md'
