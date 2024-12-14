@@ -10,11 +10,22 @@ theme:
   name: material
   palette:
     scheme: slate
+  features:
+    - navigation.footer
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gznetwork.com/
+    - icon: fontawesome/brands/github
+      link: https://github.com/MiyooCFW/docs
+    - icon: simple/matrix
+      link: https://matrix.to/#/#miyoocfw:matrix.org
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.superfences
   - md_in_html
+copyright: Documentation for <b>Miyoo Custom Firmware</b>.
 nav:
 - 'CFW 2.0.0':
   - Home: 'Home.md'
@@ -26,6 +37,7 @@ nav:
   - Making Games: 'Making-Games.md'
   - Using Docker to Compile Games: 'Using-Docker-to-Compile-Games.md'
   - Remote debugging: 'Remote-debugging.md'
+  - USB Networking: 'USB-Networking.md'
   - Bug Reporting: 'https://github.com/TriForceX/MiyooCFW/issues'
   - Discussions Topics: 'https://github.com/TriForceX/MiyooCFW/discussions'
 
@@ -72,7 +84,7 @@ nav:
   - 'ALL':
     - Improve Directional Pad: 'Improve-Directional-Pad.md'
   - 'V90':
-    - USB-C Fix: 'https://www.nfriedly.com/techblog/2021-10-10-v90-usb-c'
+    - USB-C Fix: 'Fixing-USB-C-charging-on-the-PowKiddy-V90.md'
   - 'PocketGo':
     - Sound Noise Fix: 'Sound-Noise-Fix.md'
     - Light Bleed Fix: 'Light-Bleed-Fix.md'

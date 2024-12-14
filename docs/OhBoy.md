@@ -25,9 +25,9 @@ Thanks to **da1writer** for this list.
 
 # Custom Palettes
 
-This tutorial will help you install custom palettes for the Bittboy emulator **OhBoy**. You can download [here](https://drive.google.com/file/d/12CFWjpUubXE4aPqUwu7cGUEW_oxKPiPp/view?usp=sharing).
+This tutorial will help you install custom palettes for the Bittboy emulator **OhBoy**. You can download [here](assets/2TMAU5_Custom_Palettes_for_Ohboy.zip)
 
-![ohboy-palletes](https://user-images.githubusercontent.com/16083854/58358039-30547880-7e4b-11e9-9157-398baa9dc466.png)
+![ohboy-palletes](imgs/58358039-30547880-7e4b-11e9-9157-398baa9dc466.png)
 
 **Notes**
 1. _OhBoy_ and _GamBatte_ palettes arent interchangeable. You need the palettes for the correct emulator.

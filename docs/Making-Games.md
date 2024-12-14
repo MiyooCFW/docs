@@ -36,9 +36,9 @@ Recommended Linux distribution is Ubuntu 22.04
 The Miyoo uses a custom firmware based around buildroot and Linux.
 To compile programs for it, we'll need to get buildroot in order to cross-compile programs for the Miyoo.
 
-For downloadable pre-built packages/binaries of the toolchain/SDK [see here](https://github.com/TriForceX/MiyooCFW/wiki/Get-the-prebuilt-SDK-from-GH-actions).
+For downloadable pre-built packages/binaries of the toolchain/SDK [see here](Get-the-prebuilt-SDK-from-GH-actions.md).
 
-If you wish to compile the toolchain/SDK from source, [see here](https://github.com/TriForceX/MiyooCFW/wiki/Build-Image-and-SDK)
+If you wish to compile the toolchain/SDK from source, [see here](Build-Image-and-SDK.md)
 
 ## Step 3
 Create a folder for your project with your game's source code and create a "Makefile" for it.

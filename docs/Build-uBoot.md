@@ -6,7 +6,7 @@ cd uboot
 ---
 ## Build uBoot locally
 
-You need to have [SDK](https://github.com/TriForceX/MiyooCFW/wiki/Get-the-prebuilt-SDK-from-GH-actions) installed in `/opt/miyoo` directory
+You need to have [SDK](Get-the-prebuilt-SDK-from-GH-actions.md) installed in `/opt/miyoo` directory
 
 - set environment variables inline with SDK location:
 ```

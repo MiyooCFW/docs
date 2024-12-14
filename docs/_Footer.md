@@ -1,1 +1,0 @@
-This wiki was made for **Miyoo Custom Firmware** and its compatible consoles. Some info still may be missing, if you have any question or suggestion please send us a message in our _Discord_ server [here](https://discord.gznetwork.com) or our development chat at _Matrix_ [here](https://matrix.to/#/#miyoocfw:matrix.org)
