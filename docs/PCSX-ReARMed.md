@@ -1,3 +1,8 @@
+# This guide may be outdated!
+Since [Version 2.0.0 Beta](https://github.com/TriForceX/MiyooCFW/releases/tag/2.0.0-beta) was pre-released the following guide will change or be updated and the current one may be only for the old version 1.3.3. Be careful!
+
+---
+
 # Configuration Pack
 
 HYJiNX187's PCSX-Rearmed Config Library v1.0
@@ -63,7 +68,7 @@ these games and scraping them off of your devices.
 
 ## Installation
 Unzip the contents of the zip file into the "Main" partition of
-you Miyoo 1.3.3 CFW SD Card.
+you MiyooCFW SD Card.
 
 
 
@@ -74,7 +79,7 @@ the GameFAQs community and was created using the following thread
 
 https://gamefaqs.gamespot.com/boards/916392-playstation/73165050
 
-My package is based on Miyoo CFW 1.3.3 which can be found here:
+My package is based on MiyooCFW which can be found here:
 
 https://github.com/TriForceX/MiyooCFW
 

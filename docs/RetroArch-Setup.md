@@ -1,3 +1,9 @@
+# This guide may be outdated!
+Since [Version 2.0.0 Beta](https://github.com/TriForceX/MiyooCFW/releases/tag/2.0.0-beta) was pre-released the following guide will change or be updated and the current one may be only for the old version 1.3.3. Be careful!
+
+---
+
+
 ### Download files
 
 NOTE: RetroArch is now included in 2.0.0 beta so you can skip the download/unzip steps (1 ad 2)!

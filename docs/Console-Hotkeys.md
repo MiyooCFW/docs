@@ -21,7 +21,4 @@ Simulated R3 | | Reset + X | Rfunction + Lfunction | Reset + R1 | VOL + X  | HOM
 
 - Lfunction is an extra left button on Q20 and "-" button on Q90 (acts as L3 key)  
 - Rfunction is an extra right button on Q20 and "+" button on Q90 (acts as RESET/MENU key)  
-- for 1.3.3 legacy image, the above Bittboy hotkeys layout is applied through out all consoles, with two exceptions:
-	- RESET+SELECT acts as "Quick Shutdown"
-	- Simulated L2/R2 hotkeys mimic in fact L3/R3
 - Hold the select button when in the main menu, to come out of TV out mode.
