@@ -11,7 +11,7 @@
   
 ## Configure toolchain
 - Extract toolchain.7z into /opt/miyoo
-  - Download form [here](assets/toolchain.7z)
+  - Download form [here](https://github.com/NxHope/miyoo_dev/releases/download/v1.3.3/toolchain.7z)
   - NOTE: Is recommended to build your own toolchain due it has received many updates, see [here](Making-Games-DEPRECATED.md)
 - Export command
   - export PATH=$PATH:/opt/miyoo/bin
