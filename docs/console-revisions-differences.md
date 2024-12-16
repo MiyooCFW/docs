@@ -1,8 +1,6 @@
-## Console Revisions Differences
-
 The next list is for some differences between Miyoo &  Powkiddy devices:
 
-_**Note:** Some people have been receiving consoles with parts of different versions, if any **CFW** does not work let us know in our **Discord** indicated above._
+_**Note:** Some people have been receiving consoles with parts of different versions, if any **CFW** does not work let us know._
 
 Rev | Release | Notes
 :------------: | :------------: | :------------
