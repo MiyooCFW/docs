@@ -7,8 +7,10 @@ site_author: TriForceX
 site_dir: site
 docs_dir: docs
 theme:
+  logo: imgs/miyoocfw-logo.svg
   name: material
   palette:
+    primary: black
     scheme: slate
   features:
     - navigation.footer
