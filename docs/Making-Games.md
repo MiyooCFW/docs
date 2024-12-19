@@ -1,21 +1,23 @@
-## How to build your own games
-This is an small guide to start making games for Miyoo (not for beginners). Thanks to **crait** for this guide and **gameblabla** for his updates.
+# Version 1.3.3
 
-## SDL 1.2 keys (MiyooCFW 2.0.0 & above)
+---
+
+## How to build your own games
+This is an small guide to start making games for Bittboy/PocketGo (not for beginners). Thanks to **crait** for this guide and **gameblabla** for his updates.
+
+## SDL 1.2 keys (MiyooCFW 1.3.3)
 Physical button bindings for Miyoo 1'st gen consoles (Bittboy's in round brackets)
 
 Button | SDLKey 
 :-----: | :-----: 
-A (A) | SDLK_LALT
-B (B) | SDLK_LCTRL
-X (TA) | SDLK_LSHIFT 
-Y (TB)| SDLK_SPACE
+A (TA) | SDLK_LALT
+B (A) | SDLK_LCTRL
+X (TB) | SDLK_LSHIFT 
+Y (B)| SDLK_SPACE
 L1 | SDLK_TAB
 R1 | SDLK_BACKSPACE 
 L2 | SDLK_PAGEUP
 R2 | SDLK_PAGEDOWN
-L3 | SDLK_RALT
-R3 | SDLK_RSHIFT
 RESET | SDLK_RCTRL
 START | SDLK_RETURN
 SELECT | SDLK_ESCAPE
@@ -24,29 +26,62 @@ LEFT/RIGHT | SDLK_LEFT/RIGHT
 
 To check correctness of this table use [I/O tester](https://github.com/Apaczer/iotester/releases/latest) on your handheld.
 
-
 ## Step 1
 
 Since we're working with Linux-based devices, you're going to need to run a Linux distribution.
 So, if you're on Windows, you'll need to install a Virtual Machine, Cygwin, WSL or something like that.
 
-Recommended Linux distribution is Ubuntu 22.04
+crait uses Virtualbox along with Xubuntu 18.04 but you can also use mostly any linux distribution as long as it's not too old and that GCC, make and bison are available on it. 
+
+I'm using Void linux on my machine myself so most linux distributions should work.
 
 ## Step 2 
-The Miyoo uses a custom firmware based around buildroot and Linux.
-To compile programs for it, we'll need to get buildroot in order to cross-compile programs for the Miyoo.
 
-For downloadable pre-built packages/binaries of the toolchain/SDK [see here](Get-the-prebuilt-SDK-from-GH-actions.md).
+The BittBoy uses a custom firmware based around buildroot and Linux.
+To compile programs for it, we'll need to get buildroot in order to cross-compile programs for the Bittboy/PocketGo.
 
-If you wish to compile the toolchain/SDK from source, [see here](Build-Image-and-SDK.md)
+
+
+For downloadable pre-built packages/binaries of the toolchain/SDK [see here](https://github.com/MiyooCFW/toolchain/releases).
+
+
+If you wish to compile the toolchain/SDK from source, be sure you have the following dependencies:
+`bison`, `make`, `gcc`.
+You will also need at least 10GB of free space before you can proceed.
+Run the following commands in the terminal :
+
+```
+sudo mkdir /opt/miyoo
+cd /opt/miyoo
+sudo git clone https://github.com/MiyooCFW/toolchain.git
+
+cd toolchain
+sudo make sdk
+```
+
+Warning : this can take a long time ! (a few hours depending on your machine)
 
 ## Step 3
+
+Once compiling the toolchain is done, go to the "output" folder and then inside of that, go to the "host" folder.
+Now grab the content of that folder inside and put it in /opt/miyoo/.
+
+(Note that the contents of /opt are usually not writable by normal users, so you may need to become administrator/root.)
+
+The easiest way of doing this step is via the terminal:
+
+```
+sudo mv /opt/miyoo/toolchain/output/host/* /opt/miyoo/
+```
+
+## Step 4
+
 Create a folder for your project with your game's source code and create a "Makefile" for it.
 Here's the one that crait used for the Midnight Wild game:
 
 ```
 CHAINPREFIX= /opt/miyoo/
-CROSS_COMPILE=$(CHAINPREFIX)/bin/arm-linux-
+CROSS_COMPILE=$(CHAINPREFIX)/bin/arm-buildroot-linux-musleabi-
 
 CC = $(CROSS_COMPILE)gcc
 CXX = $(CROSS_COMPILE)g++
@@ -83,7 +118,8 @@ clean:
 	rm -f $(OBJS) $(OUTPUTNAME)
 ```
 
-## Step 4
+
+## Step 5
 
 Build your software with "make" in the terminal and you should be good to go!
 

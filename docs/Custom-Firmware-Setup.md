@@ -89,7 +89,7 @@ When successful, you'll be greeted with an old-type, Windows-like blue/system sc
 
 **Notes:** 
 - The SD card need to be in **FAT 32** format.
-- If you have problems to access the **"main"** partition on Windows 7 or 8 please read [here](Overview.md#alternative-to-access-the-main-partition-on-windows-7-or-8)
+- If you have problems to access the **"main"** partition on Windows 7 or 8 please read [here](index.md#alternative-to-access-the-main-partition-on-windows-7-or-8)
 
 ---
 </details>
@@ -124,7 +124,7 @@ When successful, you'll be greeted with an old-type, Windows-like blue/system sc
 
 **노트:** 
 - SD 카드는 _FAT 32_ 형식이어야합니다.
-- Windows 7 또는 8의 "기본"파티션에 액세스하는 데 문제가있는 경우 [여기를 클릭하십시오](Overview.md#alternative-to-access-the-main-partition-on-windows-7-or-8)
+- Windows 7 또는 8의 "기본"파티션에 액세스하는 데 문제가있는 경우 [여기를 클릭하십시오](index.md#alternative-to-access-the-main-partition-on-windows-7-or-8)
 
 ---
 
@@ -161,7 +161,7 @@ When successful, you'll be greeted with an old-type, Windows-like blue/system sc
 
 **Notes:** 
 - The SD card need to be in **FAT 32** format.
-- If you have problems to access the **"main"** partition on Windows 7 or 8 please read [here](Overview.md#alternative-to-access-the-main-partition-on-windows-7-or-8)
+- If you have problems to access the **"main"** partition on Windows 7 or 8 please read [here](index.md#alternative-to-access-the-main-partition-on-windows-7-or-8)
 
 ---
 
@@ -196,7 +196,7 @@ When successful, you'll be greeted with an old-type, Windows-like blue/system sc
 
 **노트:** 
 - SD 카드는 _FAT 32_ 형식이어야합니다.
-- Windows 7 또는 8의 "기본"파티션에 액세스하는 데 문제가있는 경우 [여기를 클릭하십시오](Overview.md#alternative-to-access-the-main-partition-on-windows-7-or-8)
+- Windows 7 또는 8의 "기본"파티션에 액세스하는 데 문제가있는 경우 [여기를 클릭하십시오](index.md#alternative-to-access-the-main-partition-on-windows-7-or-8)
 
 ---
 
@@ -231,7 +231,7 @@ When successful, you'll be greeted with an old-type, Windows-like blue/system sc
 
 **Notes:** 
 - The SD card need to be in **FAT 32** format.
-- If you have problems to access the **"main"** partition on Windows 7 or 8 please read [here](Overview.md#alternative-to-access-the-main-partition-on-windows-7-or-8)
+- If you have problems to access the **"main"** partition on Windows 7 or 8 please read [here](index.md#alternative-to-access-the-main-partition-on-windows-7-or-8)
 
 ---
 
@@ -264,7 +264,7 @@ When successful, you'll be greeted with an old-type, Windows-like blue/system sc
 
 **노트:** 
 - SD 카드는 _FAT 32_ 형식이어야합니다.
-- Windows 7 또는 8의 "기본"파티션에 액세스하는 데 문제가있는 경우 [여기를 클릭하십시오](Overview.md#alternative-to-access-the-main-partition-on-windows-7-or-8)
+- Windows 7 또는 8의 "기본"파티션에 액세스하는 데 문제가있는 경우 [여기를 클릭하십시오](index.md#alternative-to-access-the-main-partition-on-windows-7-or-8)
 ---
 
 </details>

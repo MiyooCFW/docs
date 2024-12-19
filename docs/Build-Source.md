@@ -12,7 +12,7 @@
 ## Configure toolchain
 - Extract toolchain.7z into /opt/miyoo
   - Download form [here](https://github.com/NxHope/miyoo_dev/releases/download/v1.3.3/toolchain.7z)
-  - NOTE: Is recommended to build your own toolchain due it has received many updates, see [here](Making-Games-DEPRECATED.md)
+  - NOTE: Is recommended to build your own toolchain due it has received many updates, see [here](Making-Games.md)
 - Export command
   - export PATH=$PATH:/opt/miyoo/bin
   
@@ -70,7 +70,7 @@
   
 ## Build Rootfs
 - You can use an already configured buildroot from https://github.com/MiyooCFW/buildroot
-  - See here: [Making-Games](Making-Games-DEPRECATED.md)
+  - See here: [Making-Games](Making-Games.md)
 - Or download buildroot-2018.02.9 from https://buildroot.org
 - Use config_buildroot-2018.02.9 and then make it
 - Toolchain location: /opt/miyoo

@@ -27,8 +27,8 @@ markdown_extensions:
   - md_in_html
 copyright: Documentation for <b>Miyoo Custom Firmware</b>.
 nav:
-- Making-Games: 'Making-Games-DEPRECATED.md'
-- Build Source: 'Build-Source-DEPRECATED.md'
+- Making-Games: 'Making-Games.md'
+- Build Source: 'Build-Source.md'
 - Custom Firmware Setup: 'Custom-Firmware-Setup.md'
 
 - 'Applications':
