@@ -20,7 +20,7 @@ extra:
     - icon: fontawesome/brands/discord
       link: https://discord.gznetwork.com
     - icon: fontawesome/brands/github
-      link: https://github.com/MiyooCFW/docs
+      link: https://github.com/MiyooCFW
     - icon: simple/matrix
       link: https://matrix.to/#/#miyoocfw:matrix.org
 markdown_extensions:
