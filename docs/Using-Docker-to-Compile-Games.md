@@ -8,7 +8,7 @@ This guide assumes you are using Ubuntu or one of its derivatives. Some commands
 
     `sudo apt install docker.io`
 
-- Download the MiyooCFW Toolchain:
+- Download the MiyooCFW Toolchain containers:
 
 ```
      sudo docker pull miyoocfw/toolchain-shared-uclibc
@@ -18,6 +18,9 @@ This guide assumes you are using Ubuntu or one of its derivatives. Some commands
 ```
 
 ## Compiling apps using docker with MiyooCFW Toolchain:
+
+For e.g. uClibc SDK perform this steps:
+
 ```
 cd my_game_src_dir/
 docker run --volume ./:/src/ -it miyoocfw/toolchain-shared-uclibc:latest
@@ -28,7 +31,7 @@ make -f Makefile.miyoo
 
 ## Compiling apps by setting up Project for Docker
 
-- Just outside the project directory, create an empty text file named "make.sh", and add the following text to it, replacing the values of the PROJECT_DIR and MAKE_CMD variables with your project's directory name and compile command:
+- Just outside the project directory, create an empty text file named "make.sh", and add the following text to it, replacing the values of the PROJECT_DIR and MAKE_CMD variables with your project's directory name and compile command (assuming you use shared uClibc SDK):
 
 ```
 #! /bin/bash

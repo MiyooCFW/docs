@@ -28,6 +28,8 @@ make dir-pkg
 
 ## Build kernel using docker with MiyooCFW Toolchain:
 
+We will use uClibc, but any libc implementation will fit one another:
+
 ```
 docker run --volume ./:/src/ -it miyoocfw/toolchain-shared-uclibc:latest
 cd /src

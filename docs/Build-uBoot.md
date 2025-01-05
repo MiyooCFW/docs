@@ -27,6 +27,8 @@ make
 
 ## build uBoot using docker with MiyooCFW Toolchain:
 
+We will use uClibc, but any libc implementation will work on another:
+
 ```
 cd uboot
 docker run --volume ./:/src/ -it miyoocfw/toolchain-shared-uclibc:latest

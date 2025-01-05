@@ -10,6 +10,9 @@ You have to be logged on GitHub
 ![image](imgs/gh-actions.png)
 
 3. Once you have downloaded it, extract it
+
+For e.g. uClibc SDK perform this steps:
+
 ```
 gzip -d arm-miyoo-linux-uclibcgnueabi_sdk-buildroot.tar.gz
 tar xvf arm-miyoo-linux-uclibcgnueabi_sdk-buildroot.tar
@@ -19,3 +22,11 @@ sudo cp -a miyoo /opt/
 ```
 
 Your SDK is ready to use
+
+The host binaries for cross-compilation will look like this:
+```
+arm-miyoo-linux-${LIBC}${EABI}-<binary>
+```
+
+$LIBC - your SDK libs' implementation in HOST machine (uclibc/musl)
+$EABI - embedded-application binary interface (gnueabi/eabi)
