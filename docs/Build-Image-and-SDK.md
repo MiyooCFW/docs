@@ -1,16 +1,20 @@
 ### Precondition for Ubuntu 22.04
+
 ```
 sudo apt install -y wget unzip build-essential git bc swig libncurses-dev libpython3-dev libssl-dev cpio rsync subversion python3 mercurial imagemagick btrfs-progs
 ```
+
 ---
+
 ### Clone buildroot repo
+
 ```
 git clone https://github.com/MiyooCFW/buildroot.git
 cd buildroot
 ```
 
-
 ---
+
 ### You can build four types of source
 1. Shared uClibc Image and SDK
 2. Shared musl Image and SDK
@@ -26,7 +30,9 @@ cd buildroot
 > **_NOTE:_**  This can take a long time!
 
 ---
+
 ### Build uClibc image and SDK shared 
+
 ```
 make miyoo_uclibc_defconfig
 make sdk
@@ -54,8 +60,8 @@ make sdk
 ```
 > **_NOTE:_**  If you have a multicore CPU, you can increase build speed with: make -j ${YOUR_CPU_COUNT}
 
-
 ---
+
 ### Install image
 
 Img  will be in the `output` directory e.g.
@@ -64,6 +70,7 @@ miyoo-cfw-2.0.0-67298a0_uclibc-BETAv2.img
 ```
 
 ---
+
 ### Install SDK
 
 SDK will be in the `output` directory
