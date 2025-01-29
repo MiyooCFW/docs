@@ -7,7 +7,7 @@
 python3 -m mkdocs serve
 ```
 - online:  
-https://miyoocfw.readthedocs.io/
+https://miyoocfw.gznetwork.com
 
 
 ### Build with
