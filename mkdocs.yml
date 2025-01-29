@@ -1,5 +1,5 @@
-site_name: 'MiyooCFW docs'
-site_url: https://miyoocfw.readthedocs.io/latest
+site_name: 'MiyooCFW'
+site_url: https://miyoocfw.gznetwork.com/latest
 #repo_url: https://github.com/MiyooCFW/docs
 #edit_uri: blob/site/
 site_description: MiyooCFW development documentation
@@ -17,7 +17,7 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/discord
-      link: https://discord.gznetwork.com/
+      link: https://discord.gznetwork.com
     - icon: fontawesome/brands/github
       link: https://github.com/MiyooCFW/docs
     - icon: simple/matrix
