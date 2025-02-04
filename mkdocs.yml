@@ -1,12 +1,13 @@
-site_name: 'MiyooCFW'
-site_url: https://miyoocfw.gznetwork.com/latest
+site_name: 'Miyoo Custom Firmware'
+site_url: https://miyoocfw.gznetwork.com
 #repo_url: https://github.com/MiyooCFW/docs
 #edit_uri: blob/site/
-site_description: MiyooCFW development documentation
+site_description: Custom firmware source code and resources for BittBoy, PocketGo, PowKiddy V90-Q90-Q20 and third party handheld consoles
 site_author: TriForceX
 site_dir: site
 docs_dir: docs
 theme:
+  #favicon: images/favicon.png
   logo: imgs/miyoocfw-logo.svg
   name: material
   palette:
