@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 For MiyooCFW 2.0.0 release and above:
 
 Option | Bittboy | PocketGo | PowKiddy Q90 & Q20 | PowKiddy V90 | XYC Q8 | SUP M3
