@@ -7,6 +7,12 @@ This guide is under development, in some console revisions the L2 and R2 button 
 ![l-r-1](imgs/58899124-255edb00-86ca-11e9-88c7-bb78bda9feb5.jpg)
 
 ## 2) Identify the connectors
+Circuit pins (no resistor boost is required for all keys, use the internal resistor boost):
+
+L1 to SPI IC pin 1\
+R1 to SPI IC pin 2\
+L2 to SPI IC pin 6\
+R2 to SPI IC pin 5\
 ![l-r-2](imgs/58899125-255edb00-86ca-11e9-9306-ee79bd3aae9b.jpg)
 
 ## 3) Trim the case
