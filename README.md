@@ -1,5 +1,11 @@
 # MiyooCFW documentation pages
 
+### Requirements:
+```
+pip install mkdocs
+pip install mkdocs-material
+```
+
 ### Preview:
 
 - locally:
