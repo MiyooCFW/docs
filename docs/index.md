@@ -17,11 +17,12 @@
 - PowKiddy V90
 - PowKiddy Q20 Mini
 - Sup M3 v1, v2 <sup>(See notes)</sup>
+- ~~Sup M3 v3~~ <sup>(NOT SUPPORTED!)</sup>
 - XYC Q8
 - RS-77 <sup>(Not confirmed)</sup>
 - Powkiddy X7 <sup>(Not confirmed)</sup>
 
-**Notes:**  Only devices with Allwinner ``F1C100S`` or ``F1C500S`` SOC are supported and even these can come with not fully compatible components (e.g. unfamiliar LCD display). There were reports of console revisions with "updated" SOC - ``F1E200`` or ``V100``.
+**Notes:**  Only devices with Allwinner ``F1C100S`` or ``F1C500S`` SOC are supported and even these can come with not fully compatible components (e.g. unfamiliar LCD display). There were reports of console revisions with "updated" SOC - ``F1E200`` or ``V100``. To determine correct chip see [CPU overview](CPU-Overview.md) section.
 
 The **Not confirmed** consoles are not supported yet, these consoles are under revision and may not be on the final compatibility list.
 
