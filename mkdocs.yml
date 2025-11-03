@@ -26,6 +26,7 @@ extra:
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
+  - pymdownx.tilde
   - pymdownx.superfences
   - md_in_html
 copyright: Documentation for <b>Miyoo Custom Firmware</b>.
