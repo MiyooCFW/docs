@@ -20,12 +20,15 @@ extra:
     - icon: fontawesome/brands/discord
       link: https://discord.gznetwork.com
     - icon: fontawesome/brands/github
-      link: https://github.com/MiyooCFW/docs
+      link: https://github.com/MiyooCFW
     - icon: simple/matrix
       link: https://matrix.to/#/#miyoocfw:matrix.org
+plugins:
+  - glightbox
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
+  - pymdownx.tilde
   - pymdownx.superfences
   - md_in_html
 copyright: Documentation for <b>Miyoo Custom Firmware</b>.
@@ -39,6 +42,7 @@ nav:
 - Using Docker to Compile Games: 'Using-Docker-to-Compile-Games.md'
 - Remote debugging: 'Remote-debugging.md'
 - USB Networking: 'USB-Networking.md'
+- CPU Overview: 'CPU-Overview.md'
 - Console revisions differences: 'console-revisions-differences.md'
 - Bug Reporting: 'https://github.com/TriForceX/MiyooCFW/issues'
 - Discussions Topics: 'https://github.com/TriForceX/MiyooCFW/discussions'
