@@ -146,7 +146,7 @@ Allows connection to a handheld terminal using a serial port (COM port)
 ---
 ### Additional settings
 
-On the `main` partition, there is a file `options.cfg` that can be used to configure the following additional settings:
+On the `main` partition (or `boot`), there is a file `options.cfg` that can be used to configure the following additional settings:
 
 
 * `MODULES_CUSTOM=0` - set 1 if you want to load custom modules defined in file `modules.custom.sh` on `boot` partition
