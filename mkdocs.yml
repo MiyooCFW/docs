@@ -25,6 +25,7 @@ extra:
       link: https://matrix.to/#/#miyoocfw:matrix.org
 plugins:
   - glightbox
+  - search
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
