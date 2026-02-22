@@ -52,7 +52,11 @@ nav:
   - Emulator Info: 'Emulator-Info.md'
   - Homebrew Info: 'Homebrew-Info.md'
   - DosBox Setup: 'DosBox-Setup.md'
-  - RetroArch Setup: 'RetroArch-Setup.md'
+  - 'RetroArch':
+    - Info: 'RetroArch-Setup.md'
+    - 'Cores':
+      - uClibc: 'https://buildbot.libretro.com/nightly/dingux/miyoo-arm32/latest/'
+      - musl: 'Cores.md'
   - 'GameBoy':
     - GamBatte: 'GamBatte.md'
     - OhBoy: 'OhBoy.md'
