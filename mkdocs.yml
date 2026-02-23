@@ -50,8 +50,7 @@ nav:
 
 - 'Applications':
   - Emulator Info: 'Emulator-Info.md'
-  - Homebrew Info: 'Homebrew-Info.md'
-  - DosBox Setup: 'DosBox-Setup.md'
+  - DosBox: 'DosBox-Setup.md'
   - 'RetroArch':
     - Info: 'RetroArch-Setup.md'
     - 'Cores':
@@ -60,26 +59,18 @@ nav:
   - 'GameBoy':
     - GamBatte: 'GamBatte.md'
     - OhBoy: 'OhBoy.md'
-  - 'Gameboy Advance':
-    - gpSP: 'GPSP.md'
   - 'Arcade':
     - MAME4All: 'MAME4All.md'
     - GnGeo: 'GnGeo.md'
     - FBA-A320: 'FBA-A320.md'
-  - 'PlayStation':
-    - PCSX-ReARMed: 'PCSX-ReARMed.md'
 
 - 'Themes':
   - 'GMenu2X':
     - Fontixel: 'Fontixel.md'
     - NewComicBook: 'NewComicBook.md'
     - Retro Pixel BR: 'https://github.com/mrwasterbr/retropixelbr'
-  - 'SimpleMenu':
-    - SimUI: 'https://github.com/dkodr/SimUI'
 
 - 'Frontends':
-  - CoverFlow: 'https://github.com/peterthrees/Coverflow'
-  - SimpleMenu: 'https://github.com/fgl82/simplemenu'
   - GMenu2X: 'https://github.com/MiyooCFW/gmenu2x'
 
 - 'Projects':

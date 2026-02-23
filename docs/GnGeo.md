@@ -1,3 +1,3 @@
-Place BIOS file **neogeo.zip** (around 820kb) in '/mnt/roms/NEOGEO' along with games.
+Place **neogeo.zip** BIOS alongside your ROMset.
 
-Romset/games need to be the from MAME 0.128 or FBA 2012 romset.
+Romset/games need to be from MAME 0.138 or FBA 2012 ROMset.
