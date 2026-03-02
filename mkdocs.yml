@@ -32,6 +32,9 @@ markdown_extensions:
   - pymdownx.tilde
   - pymdownx.superfences
   - md_in_html
+  - pymdownx.snippets:
+      check_paths: false
+      url_download: true
 copyright: Documentation for <b>Miyoo Custom Firmware</b>.
 nav:
 - 'Quick-Start': 'index.md' 
