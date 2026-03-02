@@ -34,28 +34,34 @@ markdown_extensions:
   - md_in_html
 copyright: Documentation for <b>Miyoo Custom Firmware</b>.
 nav:
-- Console Hotkeys: 'Console-Hotkeys.md'
-- Build Image and SDK: 'Build-Image-and-SDK.md'
-- Build Kernel: 'Build-Kernel.md'
-- Build uBoot: 'Build-uBoot.md'
-- Get the prebuilt SDK from GH actions: 'Get-the-prebuilt-SDK-from-GH-actions.md'
-- Making Games: 'Making-Games.md'
-- Using Docker to Compile Games: 'Using-Docker-to-Compile-Games.md'
-- Remote debugging: 'Remote-debugging.md'
-- USB Networking: 'USB-Networking.md'
-- CPU Overview: 'CPU-Overview.md'
-- Console revisions differences: 'console-revisions-differences.md'
-- Bug Reporting: 'https://github.com/TriForceX/MiyooCFW/issues'
-- Discussions Topics: 'https://github.com/TriForceX/MiyooCFW/discussions'
+- 'Quick-Start': 'index.md' 
+- 'For Users': 
+  - Console Hotkeys: 'Console-Hotkeys.md'
+  - USB Networking: 'USB-Networking.md'
+  - CPU Overview: 'CPU-Overview.md'
+  - Console revisions differences: 'console-revisions-differences.md'
+  - Bug Reporting: 'https://github.com/TriForceX/MiyooCFW/issues'
+  - Discussions Topics: 'https://github.com/TriForceX/MiyooCFW/discussions'
+
+- 'For Developers':
+  - Build Image and SDK: 'Build-Image-and-SDK.md'
+  - Build Kernel: 'Build-Kernel.md'
+  - Build uBoot: 'Build-uBoot.md'
+  - Get the prebuilt SDK from GH actions: 'Get-the-prebuilt-SDK-from-GH-actions.md'
+  - Making Games: 'Making-Games.md'
+  - Using Docker to Compile Games: 'Using-Docker-to-Compile-Games.md'
+  - Remote debugging: 'Remote-debugging.md'
+
+- 'RetroArch':
+  - Info: 'RetroArch-Setup.md'
+  - 'Cores':
+    - uClibc: 'https://buildbot.libretro.com/nightly/dingux/miyoo-arm32/latest/'
+    - musl: 'Cores.md'
 
 - 'Applications':
   - Emulator Info: 'Emulator-Info.md'
-  - DosBox: 'DosBox-Setup.md'
-  - 'RetroArch':
-    - Info: 'RetroArch-Setup.md'
-    - 'Cores':
-      - uClibc: 'https://buildbot.libretro.com/nightly/dingux/miyoo-arm32/latest/'
-      - musl: 'Cores.md'
+  - 'PC':
+    - DosBox: 'DosBox-Setup.md'
   - 'GameBoy':
     - GamBatte: 'GamBatte.md'
     - OhBoy: 'OhBoy.md'
