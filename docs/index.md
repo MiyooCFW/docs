@@ -82,14 +82,17 @@ Miyoo supports installing IPK packages for apps, emulators, and games. To instal
 ### Autostart
 
 To enable the Autostart feature, go to GMenu2X settings and set Autostart to `ON`. Next, choose the app you want to autostart. When you quit the app, the handheld will shut down. After rebooting, the selected app will autostart. 
-> **_NOTE:_**  To disable Autostart, quickly press the `Y` button when the GMenu2X hint box appears on the screen.
+> **_NOTE:_**  To disable Autostart, quickly press the `Y` (or `X` button) when the GMenu2X hint box appears on the screen.
 
 ---
 
 ### TV-out mode
 
-To enable TV-out, run "TVout ON/OFF" from the Apps section. The handheld will reboot and start working in TV-out mode
+~~To enable TV-out, run "TVout ON/OFF" from the Apps section. The handheld will reboot and start working in TV-out mode~~<sup>(deprecated)</sup>
 
+For handhelds with integrated video/audio output in minijack you will be prompted to select desired TV_ON mode after connecting AV cable. After disconnect it will auto-switch to TV_OFF mode.
+
+For handhelds with separate audio & AV-output<sup>(e.g. PokcetGO)</sup>, you need to force TV_ON via GMenu2X settings or `options.cfg` overwrite.
 > **_NOTE:_**  To quickly exit TV-out mode, hold the select button after fully booting into GMenu2x
 
 ---
@@ -146,15 +149,10 @@ Allows connection to a handheld terminal using a serial port (COM port)
 ---
 ### Additional settings
 
-On the `main` partition (or `boot`), there is a file `options.cfg` that can be used to configure the following additional settings:
+~~On the ~~`main`partition~~ <sup>(deprecated)</sup>  
+On the `/boot` partition , there is a file `options.cfg` that can be used to configure the following additional settings:
 
-
-* `MODULES_CUSTOM=0` - set 1 if you want to load custom modules defined in file `modules.custom.sh` on `boot` partition
-* `FAT_CHECK=1`  - set 0 to disable fsck `boot` partition
-* `BOOT_LOGO=1` - set 0 to disable boot logo
-* `FLIP=0` - Set to 1 to rotate the screen by 180 degrees
-* `INVERT=0` - Set to 1 to invert colors on the screen
-* `TVMODE=0` - Set to 1 to use PAL mode for TV output, otherwise use NTSC 
-* `HOTKEY_CUSTOM=1` - Set 1 to enable custom hotkey bindings [see here](https://github.com/MiyooCFW/daemon?tab=readme-ov-file#config)
-
+```txt
+--8<-- "https://raw.githubusercontent.com/MiyooCFW/buildroot/refs/heads/master/board/miyoo/boot/options.cfg"
+```
 
