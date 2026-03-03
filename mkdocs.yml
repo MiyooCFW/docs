@@ -38,7 +38,7 @@ markdown_extensions:
 copyright: Documentation for <b>Miyoo Custom Firmware</b>.
 nav:
 - 'Quick-Start': 'index.md' 
-- 'For Users': 
+- 'User Guide': 
   - Console Hotkeys: 'Console-Hotkeys.md'
   - USB Networking: 'USB-Networking.md'
   - CPU Overview: 'CPU-Overview.md'
@@ -46,7 +46,7 @@ nav:
   - Bug Reporting: 'https://github.com/TriForceX/MiyooCFW/issues'
   - Discussions Topics: 'https://github.com/TriForceX/MiyooCFW/discussions'
 
-- 'For Developers':
+- 'Developer Guide':
   - Build Image and SDK: 'Build-Image-and-SDK.md'
   - Build Kernel: 'Build-Kernel.md'
   - Build uBoot: 'Build-uBoot.md'
