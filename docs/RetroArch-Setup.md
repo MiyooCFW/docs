@@ -1,3 +1,27 @@
+## Hotkeys mapping (from custom MiyooCFW build)
+
+Capitalized buttons description refers to Retropad input
+
+- Menu Toggle: MENU  
+- Menu Toggle Combo: START+SELECT  
+- Quit Combo: START hold
+
+All bellow bindings Enabled by: SELECT hold
+
+Retropad | Hotkey CMD
+:-----: | :-----:
+B (Down) | LoadState
+A (Right) | SaveState
+Y (Left)| Rewind (*)
+X (Top) | FastForward (Toggle)
+L1 | Reset Content
+L2 | Toggle FPS
+R1 | Pause/Unpause
+R2 | Game Focus (**)
+
+\*) *You must first enable Rewind functionality manually in `Settings->Frame_Throttle->Rewind->Rewind_Support(ON)` or in Gmenu2X's extra RetroArch settings*  
+\**) *`Game Focus` mode will disable all RA bindings and read direct keyboard inputs from connected controller (only aplicable to "Keyboard" controller in cores that utilizes it e.g. emulating vintage computer like AMIGA)*
+
 ## Recommended settings  
 
 For Frameskip options to work (eg. PCSX, gpSP, MAME, snes9x cores), you must use default ``alsa`` audio driver.
