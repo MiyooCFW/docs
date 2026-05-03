@@ -39,6 +39,7 @@ copyright: Documentation for <b>Miyoo Custom Firmware</b>.
 nav:
 - 'Quick-Start': 'index.md' 
 - 'User Guide': 
+  - Emulator Info: 'Emulator-Info.md'
   - Console Hotkeys: 'Console-Hotkeys.md'
   - USB Networking: 'USB-Networking.md'
   - CPU Overview: 'CPU-Overview.md'
@@ -62,7 +63,6 @@ nav:
     - musl: 'Cores.md'
 
 - 'Applications':
-  - Emulator Info: 'Emulator-Info.md'
   - 'PC':
     - DosBox: 'DosBox-Setup.md'
   - 'GameBoy':
