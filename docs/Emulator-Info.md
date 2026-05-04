@@ -17,26 +17,23 @@
 
  ROM Location | System | Notes
 :-----: | :-----: | :-----:
-FBA	| FBNeo - Arcade Games | ARCADE(*)
-MAME	| MAME | ARCADE(*)
-NEOGEO	| SNK - Neo Geo | ARCADE(*)
-CPC	| Amstrad - CPC / GX4000
+CPC	| Amstrad - CPC <br> Amstrad - GX4000
 ARDUBOY	| Arduboy Inc - Arduboy
-800	| Atari - 8-bit Family
 2600	| Atari - 2600
 5200	| Atari - 5200
 7800	| Atari - 7800
----	| Atari Jaguar | NOT Supported
+800	| Atari - 8-bit Family
+---	| Atari - Jaguar | NOT Supported
 LYNX	| Atari - Lynx
 ST	| Atari - ST
---- | Atomiswave | NOT Supported
-WSWAN	| Bandai - WonderSwan / WS Color
+---	| Atomiswave | NOT Supported
+WSWAN	| Bandai - WonderSwan <br> Bandai - WonderSwan Color
 CHIP_8 | CHIP-8
-MSX	| Casio - Loopy; Microsoft - MSX/MSX2; Spectravideo
---- | Casio PV-1000 | NOT Supported
---- | Cave Story | single purpouse game
+---	| Cannonball | single purpouse game
+MSX	| Casio - Loopy
+---	| Casio - PV-1000 | NOT Supported
+---	| Cave Story | single purpouse game
 CHAILOVE | ChaiLove
---- | Cannonball | single purpouse game
 COLECOVISION	| Coleco - ColecoVision
 C64	| Commodore - 64
 AMIGA	| Commodore - Amiga
@@ -46,70 +43,79 @@ AMIGA	| Commodore - Amiga
 ---	| Commodore - Plus-4 | NOT Supported
 ---	| Commodore - VIC-20 | NOT Supported
 DOOM	| DOOM
-DOS	| DOS
+DOS	| DOS | experimental libretro implementation! <br> available as standalone
 ---	| Dinothawr | single purpouse game
----	| Emerson Arcadia 2001 | NOT Supported
----	| Entex Adventure Vision | NOT Supported
----	| Epoch Super Cassette Vision | NOT Supported
+---	| Emerson - Arcadia 2001 | NOT Supported
+---	| Entex - Adventure Vision | NOT Supported
+---	| Epoch - Super Cassette Vision | NOT Supported
+FBA	| FBNeo - Arcade Games | ARCADE(*)
 BK	| Elektronika BK
 CHANNELF	| Fairchild - Channel F
 FLASHBACK	| Flashback
+--- | Funtech - Super Acan | NOT Supported
 VECTREX	| GCE - Vectrex
+---	| GamePark - GP32 | NOT Supported
 G&W	| Handheld Electronic Game
-GB	| Nintendo - Game Boy / GB Color
-GBA	| Nintendo - Game Boy Advance
----	| GamePark GP32 | NOT Supported
 ---	| Hartung Game Master | NOT Supported
----	| LeapFrog Leapster Learning Game System | NOT Supported
 JUMPNBUMP	| Jump 'n Bump
+---	| LeapFrog Leapster Learning Game System | NOT Supported
 LOWRESNX	| LowRes NX
 LUTRO	| Lutro
-ODYSSEY2	| Magnavox - Odyssey2 / Philips - Videopac+
+MAME	| MAME | ARCADE(*)
+ODYSSEY2	| Magnavox - Odyssey2
 INT	| Mattel - Intellivision
----	| Microsoft - Xbox / Xbox 360 | NOT Supported
+MSX	| Microsoft - MSX <br> Microsoft - MSX2
+---	| Microsoft - Xbox <br> Microsoft - Xbox 360 | NOT Supported
 UW8	| MicroW8
 ---	| MrBoom | single purpouse game
-PCE	| PC Engine / PCE CD / PCE SuperGrafx
+PCE	| NEC - PC Engine - TurboGrafx 16 <br> NEC - PC Engine CD - TurboGrafx-CD <br> NEC - PC Engine SuperGrafx
 PC_88	| NEC - PC-8001 - PC-8801
----	| NEC - PC-98
----	| NEC - PC-FX
-NES	| Nintendo - Nintendo Entertainment System / Family Computer Disk System
+---	| NEC - PC-98 | NOT Supported
+---	| NEC - PC-FX | NOT Supported
+NES	| Nintendo - Family Computer Disk System
+GB	| Nintendo - Game Boy
+GBA	| Nintendo - Game Boy Advance
+GB	| Nintendo - Game Boy Color
+--- | Nintendo - GameCube | NOT Supported
+---	| Nintendo - Nintendo 3DS <br> Nintendo - Nintendo 64 / 64DD <br> Nintendo - Nintendo DS / DSi | NOT Supported
+NES	| Nintendo - Nintendo Entertainment System
 POKEMINI	| Nintendo - Pokemon Mini
-SNES	| Nintendo - Super Nintendo Entertainment System / Satellaview / Sufami Turbo
----	| Nintendo 3DS | NOT Supported
----	| Nintendo 64 / 64DD | NOT Supported
----	| Nintendo DS | NOT Supported
----	| Nintendo GC | NOT Supported
----	| Nintendo Wii / Wii-U | NOT Supported
----	| Philips CD-i | NOT Supported
-PS1	| Sony - PlayStation
----	| Sony - PlayStation 2 | NOT Supported
----	| Sony - PlayStation 3 | NOT Supported
----	| Sony - PlayStation Portable | NOT Supported
----	| Sony - PlayStation Vita | NOT Supported
+SNES	| Nintendo - Satellaview <br> Nintendo - Sufami Turbo <br> Nintendo - Super Nintendo Entertainment System
+--- | Nintendo - Virtual Boy | NOT Supported
+---	| Nintendo - Wii / Wii-U | NOT Supported
+---	| Philips - CD-i | NOT Supported
+ODYSSEY2	| Philips - Videopac+
 QUAKE_1	| Quake
 ---	| Quake II  | missing directory!
 ---	| Quake III | NOT Supported
 ---	| RCA Studio II | NOT Supported
 ---	| RPG Maker | missing directory!
 ---	| Rick Dangerous | single purpouse game
+NEOGEO	| SNK - Neo Geo | ARCADE(*)
+---	| SNK - Neo Geo CD | NOT Supported
+NGP	| SNK - Neo Geo Pocket <br> SNK - Neo Geo Pocket Color
+SCUMMVM	| ScummVM
+SMD	| Sega - 32X
+---	| Sega - Dreamcast | NOT Supported
+SMS	| Sega - Game Gear
+SMS	| Sega - Master System - Mark III
+SMD	| Sega - Mega Drive - Genesis <br> Sega - Mega-CD - Sega CD
+---	| Sega - Naomi / Naomi 2| NOT Supported
+SMD	| Sega - PICO
+SMS	| Sega - SG-1000
+---	| Sega - Saturn | NOT Supported
+VMU	| Sega - VMU
 SHARP_X1	| Sharp - X1
----	| Sharp X68000 | NOT Supported
-SCUMMVM	| "ScummVM"
-SMS	| Sega - SG1000 / GameGear / MasterSystem
-SMD	| Sega - Genesis / Sega CD / 32X / PICO
----	| SEGA Saturn | NOT Supported
----	| SEGA Dreamcast | NOT Supported
----	| SEGA Naomi | NOT Supported
----	| SEGA Naomi2 | NOT Supported
-VMU	| SEGA - VMU
+---	| Sharp - X68000 | NOT Supported
 Z80	| Sinclair - ZX Spectrum
 ZX81	| Sinclair - ZX 81
---- | SNK Neo Geo CD | NOT Supported
-NGP	| SNK - Neo Geo Pocket / NGP Color
+PS1	| Sony - PlayStation
+---	| Sony - PlayStation 2 / 3 / 4 | NOT Supported
+---	| Sony - PlayStation Portable / Vita | NOT Supported
+MSX	| Spectravideo - SVI-318 - SVI-328
 TI_83	| Texas Instruments
----	| The 3DO | NOT Supported
 TIC80	| TIC-80
+---	| The 3DO Company - 3DO | NOT Supported
 THOMSON	| Thomson - MOTO
 ---	| Tiger Game.com | NOT Supported
 --- | Tomb Raider | missing directory!
