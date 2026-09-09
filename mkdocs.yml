@@ -74,7 +74,7 @@ nav:
   - 'Arcade':
     - MAME4All: 'MAME4All.md'
     - GnGeo: 'GnGeo.md'
-    - FBA-A320: 'FBA-A320.md'
+    - FBA: 'FBA.md'
 
 - 'Themes':
   - 'GMenu2X':
